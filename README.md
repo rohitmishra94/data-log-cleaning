@@ -49,8 +49,3 @@ Link: [https://timeline-log.streamlit.app/](https://timeline-log.streamlit.app/)
 This application focuses on time-ordered user behaviour. It allows users to view the exact sequence of events performed by a user over time, supporting journey and behavioural analysis.
 
 ---
-
-## Notes
-
-* Pipelines are executed offline and their outputs are committed to the repository.
-* Streamlit applications are read-only and consume precomputed CSV outputs.
