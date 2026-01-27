@@ -17,26 +17,33 @@ df = pd.read_csv(CLEANED_EVENTS_FILE)
 summary = pd.read_csv(REPETITION_SUMMARY_FILE)
 users_df = pd.read_csv(UNIQUE_USERS_FILE)
 
-st.set_page_config(
-    page_title="Deduplicated Events",
-    layout="wide"
-)
-
-st.title("Deduplicated Events Explorer")
+st.set_page_config(page_title="Deduplicated Events", layout="wide")
+st.title("Apni Bus Events Explorer")
 
 total_users = users_df["user_uuid"].nunique()
 total_events = len(df)
 
-col1, col2 = st.columns(2)
-col1.metric("Total Unique Users", total_users)
+c1, c2 = st.columns(2)
+c1.metric("Total Unique Users", total_users)
 
 st.divider()
 
 user_ids = users_df["user_uuid"].sort_values().tolist()
 selected_user = st.selectbox("Select User ID", user_ids)
 
+user_df = df[df["user_uuid"] == selected_user]
+
+user_event_count = len(user_df)
+user_unique_events = user_df["event_name"].nunique()
+
+c3, c4 = st.columns(2)
+c3.metric("Events for Selected User", user_event_count)
+c4.metric("Unique Event Types", user_unique_events)
+
+st.divider()
+
 user_events = (
-    df[df["user_uuid"] == selected_user]["event_name"]
+    user_df["event_name"]
     .sort_values()
     .unique()
     .tolist()
@@ -48,18 +55,11 @@ selected_event = st.selectbox(
 )
 
 if selected_event == "All Events":
-    view_df = df[df["user_uuid"] == selected_user]
+    view_df = user_df
 else:
-    view_df = df[
-        (df["user_uuid"] == selected_user) &
-        (df["event_name"] == selected_event)
-    ]
+    view_df = user_df[user_df["event_name"] == selected_event]
 
-view_df = view_df.sort_values(
-    ["event_date", "event_time_only"]
-)
-
-st.subheader("Cleaned Events")
+view_df = view_df.sort_values(["event_date", "event_time_only"])
 
 display_cols = [
     "event_date",
@@ -76,8 +76,6 @@ st.dataframe(
 )
 
 st.divider()
-
-st.subheader("Repetition Summary")
 
 summary_view = summary[summary["user_uuid"] == selected_user]
 
