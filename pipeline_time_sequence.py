@@ -2,8 +2,6 @@ import pandas as pd
 import os
 from pathlib import Path
 
-THRESHOLD_MS = 50
-
 SCRIPT_NAME = Path(__file__).stem
 BASE_DIR = SCRIPT_NAME
 PER_USER_DIR = os.path.join(BASE_DIR, "per_user_timelines")
@@ -34,50 +32,49 @@ df = df.sort_values(
     kind="mergesort"
 ).reset_index(drop=True)
 
-df["time_diff_ms"] = (
-    df.groupby(["user_uuid", "event_name"])["event_time"]
-      .diff()
-      .dt.total_seconds()
-      .mul(1000)
-)
+df["prev_event_name"] = df.groupby("user_uuid")["event_name"].shift(1)
 
 df["is_canonical"] = (
-    df["time_diff_ms"].isna() | (df["time_diff_ms"] > THRESHOLD_MS)
+    df["prev_event_name"].isna() | (df["event_name"] != df["prev_event_name"])
 )
+
+df = df.drop(columns=["prev_event_name"])
 
 cleaned_timeline = df[df["is_canonical"]].drop(
-    columns=["time_diff_ms", "is_canonical"]
+    columns=["is_canonical"]
 )
 
-repetition_summary = (
-    df.groupby(["user_uuid", "event_name", "event_date"], as_index=False)
-      .agg(
-          start_time=("event_time", "min"),
-          end_time=("event_time", "max"),
-          frequency=("event_time", "size")
-      )
-)
+df["is_consecutive_dup"] = ~df["is_canonical"]
 
-repetition_summary["repetitions_removed"] = (
-    repetition_summary["frequency"] - 1
-)
+consecutive_dups = df[df["is_consecutive_dup"]].copy()
 
-repetition_summary = repetition_summary[
-    repetition_summary["repetitions_removed"] > 0
-]
+if len(consecutive_dups) > 0:
+    repetition_summary = (
+        consecutive_dups.groupby(["user_uuid", "event_name", "category", "event_date"], as_index=False)
+          .agg(
+              start_time=("event_time", "min"),
+              end_time=("event_time", "max"),
+              frequency=("event_time", "size")
+          )
+    )
+    repetition_summary["repetitions_removed"] = repetition_summary["frequency"]
+else:
+    repetition_summary = pd.DataFrame(columns=[
+        "user_uuid", "event_name", "category", "event_date", "start_time", "end_time",
+        "frequency", "repetitions_removed"
+    ])
 
-repetition_summary["start_time"] = (
-    repetition_summary["start_time"].dt.strftime("%H:%M:%S.%f")
-)
-
-repetition_summary["end_time"] = (
-    repetition_summary["end_time"].dt.strftime("%H:%M:%S.%f")
-)
-
-repetition_summary["event_day"] = (
-    pd.to_datetime(repetition_summary["event_date"])
-      .dt.day_name()
-)
+if len(repetition_summary) > 0:
+    repetition_summary["start_time"] = (
+        repetition_summary["start_time"].dt.strftime("%H:%M:%S.%f")
+    )
+    repetition_summary["end_time"] = (
+        repetition_summary["end_time"].dt.strftime("%H:%M:%S.%f")
+    )
+    repetition_summary["event_day"] = (
+        pd.to_datetime(repetition_summary["event_date"])
+          .dt.day_name()
+    )
 
 unique_users = cleaned_timeline[["user_uuid"]].drop_duplicates()
 

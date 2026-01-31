@@ -1,140 +1,52 @@
 user_uuid,event_name,category,event_time,event_date,event_day,event_time_only
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,App Installed,system,2026-01-01 12:37:12.816000+05:30,2026-01-01,Thursday,'12:37:12.816000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,App Uninstalled,system,2026-01-02 03:29:38.123000+05:30,2026-01-02,Friday,'03:29:38.123000
 3f86c940-23cb-4c8f-8bb8-876213dfa7e6,DeviceInfo,application,2026-01-01 12:37:11.220000+05:30,2026-01-01,Thursday,'12:37:11.220000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Journey Ended,system,2026-01-01 12:38:44.265000+05:30,2026-01-01,Thursday,'12:38:44.265000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Session Started,system,2026-01-01 12:37:12.226000+05:30,2026-01-01,Thursday,'12:37:12.226000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,App Installed,system,2026-01-01 12:37:12.816000+05:30,2026-01-01,Thursday,'12:37:12.816000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Subscribe Process - Device Registered (Push),system,2026-01-01 12:37:12.939000+05:30,2026-01-01,Thursday,'12:37:12.939000
 3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Journey Started,system,2026-01-01 12:37:17.880000+05:30,2026-01-01,Thursday,'12:37:17.880000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Journey Started,system,2026-01-01 12:38:44.265000+05:30,2026-01-01,Thursday,'12:38:44.265000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Session Started,system,2026-01-01 12:38:01.701000+05:30,2026-01-01,Thursday,'12:38:01.701000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,choose_language,application,2026-01-01 12:38:18.322000+05:30,2026-01-01,Thursday,'12:38:18.322000
 3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Onboarding_Language,application,2026-01-01 12:38:18.334000+05:30,2026-01-01,Thursday,'12:38:18.334000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Onboarding_Profile Saved,application,2026-01-01 12:40:57.715000+05:30,2026-01-01,Thursday,'12:40:57.715000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,generate_otp,application,2026-01-01 12:38:38.737000+05:30,2026-01-01,Thursday,'12:38:38.737000
 3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Onboarding_get_otp,application,2026-01-01 12:38:38.782000+05:30,2026-01-01,Thursday,'12:38:38.782000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_auth_generate-otp,application,2026-01-01 12:38:39.720000+05:30,2026-01-01,Thursday,'12:38:39.720000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,get_otp,application,2026-01-01 12:38:39.734000+05:30,2026-01-01,Thursday,'12:38:39.734000
 3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Onboarding_signup_,application,2026-01-01 12:38:39.746000+05:30,2026-01-01,Thursday,'12:38:39.746000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Journey Ended,system,2026-01-01 12:38:44.265000+05:30,2026-01-01,Thursday,'12:38:44.265000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Journey Started,system,2026-01-01 12:38:44.265000+05:30,2026-01-01,Thursday,'12:38:44.265000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,verify_otp,application,2026-01-01 12:39:54.448000+05:30,2026-01-01,Thursday,'12:39:54.448000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_auth_verify-otp,application,2026-01-01 12:39:54.979000+05:30,2026-01-01,Thursday,'12:39:54.979000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,enter_otp,application,2026-01-01 12:39:54.996000+05:30,2026-01-01,Thursday,'12:39:54.996000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,User Login,system,2026-01-01 12:39:55.046000+05:30,2026-01-01,Thursday,'12:39:55.046000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,login,application,2026-01-01 12:39:55.516000+05:30,2026-01-01,Thursday,'12:39:55.516000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_user,application,2026-01-01 12:39:55.547000+05:30,2026-01-01,Thursday,'12:39:55.547000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_from-town,application,2026-01-01 12:39:56.160000+05:30,2026-01-01,Thursday,'12:39:56.160000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Onboarding_Profile Saved,application,2026-01-01 12:40:57.715000+05:30,2026-01-01,Thursday,'12:40:57.715000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_user,application,2026-01-01 12:41:38.884000+05:30,2026-01-01,Thursday,'12:41:38.884000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_history_recommended-journey,application,2026-01-01 12:41:43.308000+05:30,2026-01-01,Thursday,'12:41:43.308000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_user_device,application,2026-01-01 12:41:43.321000+05:30,2026-01-01,Thursday,'12:41:43.321000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_user,application,2026-01-01 12:41:43.343000+05:30,2026-01-01,Thursday,'12:41:43.343000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_from-town,application,2026-01-01 12:41:43.422000+05:30,2026-01-01,Thursday,'12:41:43.422000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_ticket,application,2026-01-01 12:41:43.616000+05:30,2026-01-01,Thursday,'12:41:43.616000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:41:43.718000+05:30,2026-01-01,Thursday,'12:41:43.718000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:41:48.671000+05:30,2026-01-01,Thursday,'12:41:48.671000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Session Started,system,2026-01-01 12:44:02.328000+05:30,2026-01-01,Thursday,'12:44:02.328000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:26.664000+05:30,2026-01-01,Thursday,'12:44:26.664000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:46:06.135000+05:30,2026-01-01,Thursday,'12:46:06.135000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:46:06.366000+05:30,2026-01-01,Thursday,'12:46:06.366000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:47:09.262000+05:30,2026-01-01,Thursday,'12:47:09.262000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:47:09.434000+05:30,2026-01-01,Thursday,'12:47:09.434000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:47:16.298000+05:30,2026-01-01,Thursday,'12:47:16.298000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:47:16.413000+05:30,2026-01-01,Thursday,'12:47:16.413000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:47:47.026000+05:30,2026-01-01,Thursday,'12:47:47.026000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:47:47.153000+05:30,2026-01-01,Thursday,'12:47:47.153000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:47:50.395000+05:30,2026-01-01,Thursday,'12:47:50.395000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:47:50.634000+05:30,2026-01-01,Thursday,'12:47:50.634000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:48:08.794000+05:30,2026-01-01,Thursday,'12:48:08.794000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:48:08.925000+05:30,2026-01-01,Thursday,'12:48:08.925000
 3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Delivered,system,2026-01-01 12:59:52.468000+05:30,2026-01-01,Thursday,'12:59:52.468000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Dismiss,system,2026-01-01 13:59:32.202000+05:30,2026-01-01,Thursday,'13:59:32.202000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-02 12:37:36.303000+05:30,2026-01-02,Friday,'12:37:36.303000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-03 12:38:00.529000+05:30,2026-01-03,Saturday,'12:38:00.529000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-04 12:38:21.967000+05:30,2026-01-04,Sunday,'12:38:21.967000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-05 12:38:52.478000+05:30,2026-01-05,Monday,'12:38:52.478000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-06 12:39:22.614000+05:30,2026-01-06,Tuesday,'12:39:22.614000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-08 12:39:50.452000+05:30,2026-01-08,Thursday,'12:39:50.452000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-10 12:40:23.882000+05:30,2026-01-10,Saturday,'12:40:23.882000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-12 12:40:52.318000+05:30,2026-01-12,Monday,'12:40:52.318000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-14 12:41:24.923000+05:30,2026-01-14,Wednesday,'12:41:24.923000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-16 12:42:03.471000+05:30,2026-01-16,Friday,'12:42:03.471000
 3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Impression,system,2026-01-01 12:59:52.547000+05:30,2026-01-01,Thursday,'12:59:52.547000
 3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Sent,system,2026-01-01 12:59:55.816000+05:30,2026-01-01,Thursday,'12:59:55.816000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Subscribe Process - Device Registered (Push),system,2026-01-01 12:37:12.939000+05:30,2026-01-01,Thursday,'12:37:12.939000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Session Started,system,2026-01-01 12:37:12.226000+05:30,2026-01-01,Thursday,'12:37:12.226000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Session Started,system,2026-01-01 12:38:01.701000+05:30,2026-01-01,Thursday,'12:38:01.701000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Session Started,system,2026-01-01 12:44:02.328000+05:30,2026-01-01,Thursday,'12:44:02.328000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,User Login,system,2026-01-01 12:39:55.046000+05:30,2026-01-01,Thursday,'12:39:55.046000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_auth_generate-otp,application,2026-01-01 12:38:39.720000+05:30,2026-01-01,Thursday,'12:38:39.720000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_auth_verify-otp,application,2026-01-01 12:39:54.979000+05:30,2026-01-01,Thursday,'12:39:54.979000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_history_recommended-journey,application,2026-01-01 12:41:43.308000+05:30,2026-01-01,Thursday,'12:41:43.308000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:41:48.671000+05:30,2026-01-01,Thursday,'12:41:48.671000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:41:52.706000+05:30,2026-01-01,Thursday,'12:41:52.706000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:41:53.141000+05:30,2026-01-01,Thursday,'12:41:53.141000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:41:53.341000+05:30,2026-01-01,Thursday,'12:41:53.341000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:41:53.846000+05:30,2026-01-01,Thursday,'12:41:53.846000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:42:00.715000+05:30,2026-01-01,Thursday,'12:42:00.715000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:42:00.936000+05:30,2026-01-01,Thursday,'12:42:00.936000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:42:10.081000+05:30,2026-01-01,Thursday,'12:42:10.081000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:42:10.388000+05:30,2026-01-01,Thursday,'12:42:10.388000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:42:10.616000+05:30,2026-01-01,Thursday,'12:42:10.616000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:42:11.484000+05:30,2026-01-01,Thursday,'12:42:11.484000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:42:12.560000+05:30,2026-01-01,Thursday,'12:42:12.560000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:42:12.772000+05:30,2026-01-01,Thursday,'12:42:12.772000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:26.664000+05:30,2026-01-01,Thursday,'12:44:26.664000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:28.445000+05:30,2026-01-01,Thursday,'12:44:28.445000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:28.659000+05:30,2026-01-01,Thursday,'12:44:28.659000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:29.720000+05:30,2026-01-01,Thursday,'12:44:29.720000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:29.887000+05:30,2026-01-01,Thursday,'12:44:29.887000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:30.187000+05:30,2026-01-01,Thursday,'12:44:30.187000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:44.537000+05:30,2026-01-01,Thursday,'12:44:44.537000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:44.736000+05:30,2026-01-01,Thursday,'12:44:44.736000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:44.956000+05:30,2026-01-01,Thursday,'12:44:44.956000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:45.753000+05:30,2026-01-01,Thursday,'12:44:45.753000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:45.942000+05:30,2026-01-01,Thursday,'12:44:45.942000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:46.045000+05:30,2026-01-01,Thursday,'12:44:46.045000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:46.798000+05:30,2026-01-01,Thursday,'12:44:46.798000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:47.092000+05:30,2026-01-01,Thursday,'12:44:47.092000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:47.312000+05:30,2026-01-01,Thursday,'12:44:47.312000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:47.645000+05:30,2026-01-01,Thursday,'12:44:47.645000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:47.859000+05:30,2026-01-01,Thursday,'12:44:47.859000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:54.670000+05:30,2026-01-01,Thursday,'12:44:54.670000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:54.791000+05:30,2026-01-01,Thursday,'12:44:54.791000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:55.191000+05:30,2026-01-01,Thursday,'12:44:55.191000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:57.354000+05:30,2026-01-01,Thursday,'12:44:57.354000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:57.893000+05:30,2026-01-01,Thursday,'12:44:57.893000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:58.363000+05:30,2026-01-01,Thursday,'12:44:58.363000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:58.499000+05:30,2026-01-01,Thursday,'12:44:58.499000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:58.784000+05:30,2026-01-01,Thursday,'12:44:58.784000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:59.103000+05:30,2026-01-01,Thursday,'12:44:59.103000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:59.352000+05:30,2026-01-01,Thursday,'12:44:59.352000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:44:59.687000+05:30,2026-01-01,Thursday,'12:44:59.687000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:00.056000+05:30,2026-01-01,Thursday,'12:45:00.056000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:00.328000+05:30,2026-01-01,Thursday,'12:45:00.328000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:00.714000+05:30,2026-01-01,Thursday,'12:45:00.714000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:01.417000+05:30,2026-01-01,Thursday,'12:45:01.417000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:01.722000+05:30,2026-01-01,Thursday,'12:45:01.722000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:02.122000+05:30,2026-01-01,Thursday,'12:45:02.122000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:02.578000+05:30,2026-01-01,Thursday,'12:45:02.578000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:02.877000+05:30,2026-01-01,Thursday,'12:45:02.877000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:03.199000+05:30,2026-01-01,Thursday,'12:45:03.199000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:03.430000+05:30,2026-01-01,Thursday,'12:45:03.430000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:03.634000+05:30,2026-01-01,Thursday,'12:45:03.634000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:04.026000+05:30,2026-01-01,Thursday,'12:45:04.026000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:04.570000+05:30,2026-01-01,Thursday,'12:45:04.570000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:04.876000+05:30,2026-01-01,Thursday,'12:45:04.876000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:22.699000+05:30,2026-01-01,Thursday,'12:45:22.699000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:23.077000+05:30,2026-01-01,Thursday,'12:45:23.077000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:32.782000+05:30,2026-01-01,Thursday,'12:45:32.782000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:32.969000+05:30,2026-01-01,Thursday,'12:45:32.969000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:33.373000+05:30,2026-01-01,Thursday,'12:45:33.373000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:33.522000+05:30,2026-01-01,Thursday,'12:45:33.522000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:33.908000+05:30,2026-01-01,Thursday,'12:45:33.908000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:34.075000+05:30,2026-01-01,Thursday,'12:45:34.075000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:34.446000+05:30,2026-01-01,Thursday,'12:45:34.446000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:35.331000+05:30,2026-01-01,Thursday,'12:45:35.331000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:39.664000+05:30,2026-01-01,Thursday,'12:45:39.664000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:40.158000+05:30,2026-01-01,Thursday,'12:45:40.158000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:45:40.438000+05:30,2026-01-01,Thursday,'12:45:40.438000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:46:06.366000+05:30,2026-01-01,Thursday,'12:46:06.366000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:46:39.984000+05:30,2026-01-01,Thursday,'12:46:39.984000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:46:55.322000+05:30,2026-01-01,Thursday,'12:46:55.322000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:46:55.536000+05:30,2026-01-01,Thursday,'12:46:55.536000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:46:56.170000+05:30,2026-01-01,Thursday,'12:46:56.170000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:46:56.444000+05:30,2026-01-01,Thursday,'12:46:56.444000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:46:56.781000+05:30,2026-01-01,Thursday,'12:46:56.781000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:47:09.434000+05:30,2026-01-01,Thursday,'12:47:09.434000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:47:16.413000+05:30,2026-01-01,Thursday,'12:47:16.413000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:47:47.153000+05:30,2026-01-01,Thursday,'12:47:47.153000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:47:50.634000+05:30,2026-01-01,Thursday,'12:47:50.634000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:48:08.925000+05:30,2026-01-01,Thursday,'12:48:08.925000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:48:25.849000+05:30,2026-01-01,Thursday,'12:48:25.849000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:48:26.063000+05:30,2026-01-01,Thursday,'12:48:26.063000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:48:29.909000+05:30,2026-01-01,Thursday,'12:48:29.909000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:48:30.034000+05:30,2026-01-01,Thursday,'12:48:30.034000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:48:35.403000+05:30,2026-01-01,Thursday,'12:48:35.403000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_elastic-town-search,application,2026-01-01 12:48:35.569000+05:30,2026-01-01,Thursday,'12:48:35.569000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_from-town,application,2026-01-01 12:39:56.160000+05:30,2026-01-01,Thursday,'12:39:56.160000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_from-town,application,2026-01-01 12:41:43.422000+05:30,2026-01-01,Thursday,'12:41:43.422000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:41:43.718000+05:30,2026-01-01,Thursday,'12:41:43.718000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:41:48.508000+05:30,2026-01-01,Thursday,'12:41:48.508000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:46:06.135000+05:30,2026-01-01,Thursday,'12:46:06.135000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:47:09.262000+05:30,2026-01-01,Thursday,'12:47:09.262000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:47:16.298000+05:30,2026-01-01,Thursday,'12:47:16.298000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:47:47.026000+05:30,2026-01-01,Thursday,'12:47:47.026000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:47:50.395000+05:30,2026-01-01,Thursday,'12:47:50.395000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_location_special-town-search,application,2026-01-01 12:48:08.794000+05:30,2026-01-01,Thursday,'12:48:08.794000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_ticket,application,2026-01-01 12:41:43.616000+05:30,2026-01-01,Thursday,'12:41:43.616000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_user,application,2026-01-01 12:39:55.547000+05:30,2026-01-01,Thursday,'12:39:55.547000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_user,application,2026-01-01 12:41:38.884000+05:30,2026-01-01,Thursday,'12:41:38.884000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_user,application,2026-01-01 12:41:43.295000+05:30,2026-01-01,Thursday,'12:41:43.295000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,_user_device,application,2026-01-01 12:41:43.321000+05:30,2026-01-01,Thursday,'12:41:43.321000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,choose_language,application,2026-01-01 12:38:18.322000+05:30,2026-01-01,Thursday,'12:38:18.322000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,enter_otp,application,2026-01-01 12:39:54.996000+05:30,2026-01-01,Thursday,'12:39:54.996000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,generate_otp,application,2026-01-01 12:38:38.737000+05:30,2026-01-01,Thursday,'12:38:38.737000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,get_otp,application,2026-01-01 12:38:39.734000+05:30,2026-01-01,Thursday,'12:38:39.734000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,login,application,2026-01-01 12:39:55.516000+05:30,2026-01-01,Thursday,'12:39:55.516000
-3f86c940-23cb-4c8f-8bb8-876213dfa7e6,verify_otp,application,2026-01-01 12:39:54.448000+05:30,2026-01-01,Thursday,'12:39:54.448000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Dismiss,system,2026-01-01 13:59:32.202000+05:30,2026-01-01,Thursday,'13:59:32.202000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,App Uninstalled,system,2026-01-02 03:29:38.123000+05:30,2026-01-02,Friday,'03:29:38.123000
+3f86c940-23cb-4c8f-8bb8-876213dfa7e6,Push Failure,system,2026-01-02 12:37:36.303000+05:30,2026-01-02,Friday,'12:37:36.303000

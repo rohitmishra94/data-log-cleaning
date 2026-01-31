@@ -1,241 +1,162 @@
 user_uuid,event_name,category,event_time,event_date,event_day,event_time_only
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,App Installed,system,2026-01-09 17:52:51.120000+05:30,2026-01-09,Friday,'17:52:51.120000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,App Uninstalled,system,2026-01-10 03:30:46.359000+05:30,2026-01-10,Saturday,'03:30:46.359000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Boarding_drop_locations,application,2026-01-09 17:59:48.439000+05:30,2026-01-09,Friday,'17:59:48.439000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_Live Chat Icon,application,2026-01-09 18:04:32.554000+05:30,2026-01-09,Friday,'18:04:32.554000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_bus_selection,application,2026-01-09 17:57:58.846000+05:30,2026-01-09,Friday,'17:57:58.846000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 17:57:40.166000+05:30,2026-01-09,Friday,'17:57:40.166000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 17:57:45.179000+05:30,2026-01-09,Friday,'17:57:45.179000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 18:04:14.137000+05:30,2026-01-09,Friday,'18:04:14.137000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 18:04:24.058000+05:30,2026-01-09,Friday,'18:04:24.058000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 18:07:32.213000+05:30,2026-01-09,Friday,'18:07:32.213000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 18:07:39.233000+05:30,2026-01-09,Friday,'18:07:39.233000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,DeviceInfo,application,2026-01-09 17:52:50.624000+05:30,2026-01-09,Friday,'17:52:50.624000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-09 17:53:16.227000+05:30,2026-01-09,Friday,'17:53:16.227000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-09 17:58:28.913000+05:30,2026-01-09,Friday,'17:58:28.913000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-09 17:59:48.254000+05:30,2026-01-09,Friday,'17:59:48.254000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-09 18:15:32.269000+05:30,2026-01-09,Friday,'18:15:32.269000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-10 00:20:43.830000+05:30,2026-01-10,Saturday,'00:20:43.830000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 17:53:10.764000+05:30,2026-01-09,Friday,'17:53:10.764000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 17:53:16.226000+05:30,2026-01-09,Friday,'17:53:16.226000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 17:58:28.758000+05:30,2026-01-09,Friday,'17:58:28.758000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 17:58:28.918000+05:30,2026-01-09,Friday,'17:58:28.918000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 18:00:14.302000+05:30,2026-01-09,Friday,'18:00:14.302000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 18:04:53.105000+05:30,2026-01-09,Friday,'18:04:53.105000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_Language,application,2026-01-09 17:52:56.086000+05:30,2026-01-09,Friday,'17:52:56.086000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_Language,application,2026-01-09 17:52:56.147000+05:30,2026-01-09,Friday,'17:52:56.147000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_get_otp,application,2026-01-09 17:53:06.175000+05:30,2026-01-09,Friday,'17:53:06.175000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:53:07.163000+05:30,2026-01-09,Friday,'17:53:07.163000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:53:26.063000+05:30,2026-01-09,Friday,'17:53:26.063000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:53:43.389000+05:30,2026-01-09,Friday,'17:53:43.389000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:54:04.998000+05:30,2026-01-09,Friday,'17:54:04.998000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:54:27.874000+05:30,2026-01-09,Friday,'17:54:27.874000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,PaymentPage_Click On Back,application,2026-01-09 18:01:22.297000+05:30,2026-01-09,Friday,'18:01:22.297000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,PaymentPage_DiscountApplied,application,2026-01-09 17:59:54.700000+05:30,2026-01-09,Friday,'17:59:54.700000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Delivered,system,2026-01-09 18:00:22.301000+05:30,2026-01-09,Friday,'18:00:22.301000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Delivered,system,2026-01-09 18:20:25.194000+05:30,2026-01-09,Friday,'18:20:25.194000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Dismiss,system,2026-01-09 18:23:46.311000+05:30,2026-01-09,Friday,'18:23:46.311000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-09 18:20:28.581000+05:30,2026-01-09,Friday,'18:20:28.581000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-10 17:53:48.109000+05:30,2026-01-10,Saturday,'17:53:48.109000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-11 17:54:15.750000+05:30,2026-01-11,Sunday,'17:54:15.750000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-12 17:54:45.632000+05:30,2026-01-12,Monday,'17:54:45.632000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-13 17:55:27.908000+05:30,2026-01-13,Tuesday,'17:55:27.908000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-14 17:55:52.858000+05:30,2026-01-14,Wednesday,'17:55:52.858000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-16 17:56:21.136000+05:30,2026-01-16,Friday,'17:56:21.136000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-18 17:56:46.364000+05:30,2026-01-18,Sunday,'17:56:46.364000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Impression,system,2026-01-09 18:00:22.327000+05:30,2026-01-09,Friday,'18:00:22.327000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Impression,system,2026-01-09 18:20:26.837000+05:30,2026-01-09,Friday,'18:20:26.837000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Sent,system,2026-01-09 18:00:40.689000+05:30,2026-01-09,Friday,'18:00:40.689000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Sent,system,2026-01-09 18:15:35.083000+05:30,2026-01-09,Friday,'18:15:35.083000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Subscribe Process - Device Registered (Push),system,2026-01-09 17:52:51.878000+05:30,2026-01-09,Friday,'17:52:51.878000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,SeatSelection_Click On Back,application,2026-01-09 17:57:58.918000+05:30,2026-01-09,Friday,'17:57:58.918000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 17:52:51.070000+05:30,2026-01-09,Friday,'17:52:51.070000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 17:57:08.830000+05:30,2026-01-09,Friday,'17:57:08.830000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 18:03:00.385000+05:30,2026-01-09,Friday,'18:03:00.385000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 18:05:34.888000+05:30,2026-01-09,Friday,'18:05:34.888000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 18:07:05.604000+05:30,2026-01-09,Friday,'18:07:05.604000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 18:20:16.936000+05:30,2026-01-09,Friday,'18:20:16.936000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,User Login,system,2026-01-09 17:54:33.309000+05:30,2026-01-09,Friday,'17:54:33.309000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:53:07.121000+05:30,2026-01-09,Friday,'17:53:07.121000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:53:26.023000+05:30,2026-01-09,Friday,'17:53:26.023000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:53:43.335000+05:30,2026-01-09,Friday,'17:53:43.335000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:54:04.946000+05:30,2026-01-09,Friday,'17:54:04.946000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:54:27.823000+05:30,2026-01-09,Friday,'17:54:27.823000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_verify-otp,application,2026-01-09 17:54:32.892000+05:30,2026-01-09,Friday,'17:54:32.892000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_get-distance,application,2026-01-09 17:59:54.667000+05:30,2026-01-09,Friday,'17:59:54.667000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_list,application,2026-01-09 17:57:44.298000+05:30,2026-01-09,Friday,'17:57:44.298000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_list,application,2026-01-09 18:04:23.186000+05:30,2026-01-09,Friday,'18:04:23.186000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_list,application,2026-01-09 18:07:38.395000+05:30,2026-01-09,Friday,'18:07:38.395000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_user-bus-search,application,2026-01-09 17:57:40.662000+05:30,2026-01-09,Friday,'17:57:40.662000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_user-bus-search,application,2026-01-09 18:04:16.771000+05:30,2026-01-09,Friday,'18:04:16.771000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_user-bus-search,application,2026-01-09 18:07:32.733000+05:30,2026-01-09,Friday,'18:07:32.733000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_v2_layout,application,2026-01-09 17:57:59.328000+05:30,2026-01-09,Friday,'17:57:59.328000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_coupon,application,2026-01-09 17:59:54.678000+05:30,2026-01-09,Friday,'17:59:54.678000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 17:54:39.772000+05:30,2026-01-09,Friday,'17:54:39.772000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 17:57:10.659000+05:30,2026-01-09,Friday,'17:57:10.659000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 18:04:16.705000+05:30,2026-01-09,Friday,'18:04:16.705000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 18:07:07.937000+05:30,2026-01-09,Friday,'18:07:07.937000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 18:20:36.128000+05:30,2026-01-09,Friday,'18:20:36.128000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:09.518000+05:30,2026-01-09,Friday,'17:55:09.518000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:14.004000+05:30,2026-01-09,Friday,'17:55:14.004000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:14.591000+05:30,2026-01-09,Friday,'17:55:14.591000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:14.865000+05:30,2026-01-09,Friday,'17:55:14.865000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:15.068000+05:30,2026-01-09,Friday,'17:55:15.068000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:18.998000+05:30,2026-01-09,Friday,'17:55:18.998000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:19.266000+05:30,2026-01-09,Friday,'17:55:19.266000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:19.519000+05:30,2026-01-09,Friday,'17:55:19.519000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:19.840000+05:30,2026-01-09,Friday,'17:55:19.840000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:20.031000+05:30,2026-01-09,Friday,'17:55:20.031000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:20.338000+05:30,2026-01-09,Friday,'17:55:20.338000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:20.499000+05:30,2026-01-09,Friday,'17:55:20.499000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:20.810000+05:30,2026-01-09,Friday,'17:55:20.810000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:21.363000+05:30,2026-01-09,Friday,'17:55:21.363000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:21.830000+05:30,2026-01-09,Friday,'17:55:21.830000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:31.389000+05:30,2026-01-09,Friday,'17:55:31.389000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:34.510000+05:30,2026-01-09,Friday,'17:55:34.510000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:37.066000+05:30,2026-01-09,Friday,'17:55:37.066000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:37.381000+05:30,2026-01-09,Friday,'17:55:37.381000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:37.964000+05:30,2026-01-09,Friday,'17:55:37.964000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:38.270000+05:30,2026-01-09,Friday,'17:55:38.270000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:41.332000+05:30,2026-01-09,Friday,'17:55:41.332000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:43.037000+05:30,2026-01-09,Friday,'17:55:43.037000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:43.317000+05:30,2026-01-09,Friday,'17:55:43.317000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:43.729000+05:30,2026-01-09,Friday,'17:55:43.729000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:57:25.153000+05:30,2026-01-09,Friday,'17:57:25.153000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:57:25.647000+05:30,2026-01-09,Friday,'17:57:25.647000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:27.719000+05:30,2026-01-09,Friday,'18:03:27.719000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:28.514000+05:30,2026-01-09,Friday,'18:03:28.514000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:29.063000+05:30,2026-01-09,Friday,'18:03:29.063000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:29.630000+05:30,2026-01-09,Friday,'18:03:29.630000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:30.223000+05:30,2026-01-09,Friday,'18:03:30.223000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:31.571000+05:30,2026-01-09,Friday,'18:03:31.571000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:34.311000+05:30,2026-01-09,Friday,'18:03:34.311000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:34.973000+05:30,2026-01-09,Friday,'18:03:34.973000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:35.607000+05:30,2026-01-09,Friday,'18:03:35.607000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:36.061000+05:30,2026-01-09,Friday,'18:03:36.061000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:36.579000+05:30,2026-01-09,Friday,'18:03:36.579000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:37.301000+05:30,2026-01-09,Friday,'18:03:37.301000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:39.162000+05:30,2026-01-09,Friday,'18:03:39.162000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:41.661000+05:30,2026-01-09,Friday,'18:03:41.661000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:46.459000+05:30,2026-01-09,Friday,'18:03:46.459000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:46.787000+05:30,2026-01-09,Friday,'18:03:46.787000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:46.991000+05:30,2026-01-09,Friday,'18:03:46.991000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:47.221000+05:30,2026-01-09,Friday,'18:03:47.221000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:47.441000+05:30,2026-01-09,Friday,'18:03:47.441000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:47.783000+05:30,2026-01-09,Friday,'18:03:47.783000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:48.003000+05:30,2026-01-09,Friday,'18:03:48.003000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:48.502000+05:30,2026-01-09,Friday,'18:03:48.502000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:48.844000+05:30,2026-01-09,Friday,'18:03:48.844000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:55.360000+05:30,2026-01-09,Friday,'18:03:55.360000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:57.640000+05:30,2026-01-09,Friday,'18:03:57.640000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:59.813000+05:30,2026-01-09,Friday,'18:03:59.813000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:04:00.461000+05:30,2026-01-09,Friday,'18:04:00.461000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:04:00.649000+05:30,2026-01-09,Friday,'18:04:00.649000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:04:03.702000+05:30,2026-01-09,Friday,'18:04:03.702000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:04:04.001000+05:30,2026-01-09,Friday,'18:04:04.001000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:04:04.311000+05:30,2026-01-09,Friday,'18:04:04.311000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:04:04.619000+05:30,2026-01-09,Friday,'18:04:04.619000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:04:04.890000+05:30,2026-01-09,Friday,'18:04:04.890000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:04:05.198000+05:30,2026-01-09,Friday,'18:04:05.198000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:05:45.955000+05:30,2026-01-09,Friday,'18:05:45.955000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:05:58.119000+05:30,2026-01-09,Friday,'18:05:58.119000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:05:58.295000+05:30,2026-01-09,Friday,'18:05:58.295000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:15.750000+05:30,2026-01-09,Friday,'18:07:15.750000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:15.932000+05:30,2026-01-09,Friday,'18:07:15.932000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:16.204000+05:30,2026-01-09,Friday,'18:07:16.204000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:16.413000+05:30,2026-01-09,Friday,'18:07:16.413000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:16.844000+05:30,2026-01-09,Friday,'18:07:16.844000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:17.045000+05:30,2026-01-09,Friday,'18:07:17.045000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:20.254000+05:30,2026-01-09,Friday,'18:07:20.254000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:20.402000+05:30,2026-01-09,Friday,'18:07:20.402000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:20.973000+05:30,2026-01-09,Friday,'18:07:20.973000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:23.035000+05:30,2026-01-09,Friday,'18:07:23.035000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:23.844000+05:30,2026-01-09,Friday,'18:07:23.844000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:24.064000+05:30,2026-01-09,Friday,'18:07:24.064000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 17:54:36.283000+05:30,2026-01-09,Friday,'17:54:36.283000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 17:54:39.688000+05:30,2026-01-09,Friday,'17:54:39.688000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 17:57:10.808000+05:30,2026-01-09,Friday,'17:57:10.808000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 18:03:01.749000+05:30,2026-01-09,Friday,'18:03:01.749000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 18:07:07.768000+05:30,2026-01-09,Friday,'18:07:07.768000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 18:20:36.306000+05:30,2026-01-09,Friday,'18:20:36.306000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:54:40.013000+05:30,2026-01-09,Friday,'17:54:40.013000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:55:09.125000+05:30,2026-01-09,Friday,'17:55:09.125000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:55:31.172000+05:30,2026-01-09,Friday,'17:55:31.172000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:55:41.071000+05:30,2026-01-09,Friday,'17:55:41.071000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:57:11.138000+05:30,2026-01-09,Friday,'17:57:11.138000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:57:22.454000+05:30,2026-01-09,Friday,'17:57:22.454000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:03:02.053000+05:30,2026-01-09,Friday,'18:03:02.053000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:03:15.925000+05:30,2026-01-09,Friday,'18:03:15.925000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:03:55.254000+05:30,2026-01-09,Friday,'18:03:55.254000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:05:45.706000+05:30,2026-01-09,Friday,'18:05:45.706000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:07:08.067000+05:30,2026-01-09,Friday,'18:07:08.067000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:07:13.264000+05:30,2026-01-09,Friday,'18:07:13.264000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:20:36.754000+05:30,2026-01-09,Friday,'18:20:36.754000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_profile,application,2026-01-09 17:57:59.340000+05:30,2026-01-09,Friday,'17:57:59.340000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_profile,application,2026-01-09 17:59:54.896000+05:30,2026-01-09,Friday,'17:59:54.896000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_rewards_best-V2,application,2026-01-09 17:57:45.170000+05:30,2026-01-09,Friday,'17:57:45.170000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_rewards_best-V2,application,2026-01-09 18:04:24.036000+05:30,2026-01-09,Friday,'18:04:24.036000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_rewards_best-V2,application,2026-01-09 18:07:39.219000+05:30,2026-01-09,Friday,'18:07:39.219000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 17:54:40.332000+05:30,2026-01-09,Friday,'17:54:40.332000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 17:57:11.184000+05:30,2026-01-09,Friday,'17:57:11.184000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 17:59:54.781000+05:30,2026-01-09,Friday,'17:59:54.781000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 18:04:17.778000+05:30,2026-01-09,Friday,'18:04:17.778000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 18:07:08.472000+05:30,2026-01-09,Friday,'18:07:08.472000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 18:20:36.811000+05:30,2026-01-09,Friday,'18:20:36.811000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:54:35.633000+05:30,2026-01-09,Friday,'17:54:35.633000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:54:39.527000+05:30,2026-01-09,Friday,'17:54:39.527000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:54:40.098000+05:30,2026-01-09,Friday,'17:54:40.098000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:57:10.644000+05:30,2026-01-09,Friday,'17:57:10.644000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:57:10.937000+05:30,2026-01-09,Friday,'17:57:10.937000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:57:40.648000+05:30,2026-01-09,Friday,'17:57:40.648000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:04:16.716000+05:30,2026-01-09,Friday,'18:04:16.716000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:04:17.209000+05:30,2026-01-09,Friday,'18:04:17.209000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:07:07.883000+05:30,2026-01-09,Friday,'18:07:07.883000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:07:08.171000+05:30,2026-01-09,Friday,'18:07:08.171000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:07:32.711000+05:30,2026-01-09,Friday,'18:07:32.711000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:20:36.222000+05:30,2026-01-09,Friday,'18:20:36.222000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:20:36.488000+05:30,2026-01-09,Friday,'18:20:36.488000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user_device,application,2026-01-09 17:54:39.988000+05:30,2026-01-09,Friday,'17:54:39.988000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,App Installed,system,2026-01-09 17:52:51.120000+05:30,2026-01-09,Friday,'17:52:51.120000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,app_start,application,2026-01-09 17:52:51.810000+05:30,2026-01-09,Friday,'17:52:51.810000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,auto_apply_coupon,application,2026-01-09 17:59:54.130000+05:30,2026-01-09,Friday,'17:59:54.130000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,backpress,application,2026-01-09 18:01:28.950000+05:30,2026-01-09,Friday,'18:01:28.950000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,boarding_change_pickup,application,2026-01-09 17:59:04.357000+05:30,2026-01-09,Friday,'17:59:04.357000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,boarding_change_pickup,application,2026-01-09 17:59:43.939000+05:30,2026-01-09,Friday,'17:59:43.939000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,booking_dropoff_popup,application,2026-01-09 18:01:28.819000+05:30,2026-01-09,Friday,'18:01:28.819000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,booking_page_dropoff,application,2026-01-09 18:01:22.317000+05:30,2026-01-09,Friday,'18:01:22.317000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_detail,application,2026-01-09 17:57:58.866000+05:30,2026-01-09,Friday,'17:57:58.866000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_result,application,2026-01-09 17:57:45.374000+05:30,2026-01-09,Friday,'17:57:45.374000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_result,application,2026-01-09 18:04:24.093000+05:30,2026-01-09,Friday,'18:04:24.093000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_result,application,2026-01-09 18:07:39.434000+05:30,2026-01-09,Friday,'18:07:39.434000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_search,application,2026-01-09 17:57:45.364000+05:30,2026-01-09,Friday,'17:57:45.364000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_search,application,2026-01-09 18:04:24.081000+05:30,2026-01-09,Friday,'18:04:24.081000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_search,application,2026-01-09 18:07:39.427000+05:30,2026-01-09,Friday,'18:07:39.427000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,checkout_backpress,application,2026-01-09 18:01:28.939000+05:30,2026-01-09,Friday,'18:01:28.939000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Subscribe Process - Device Registered (Push),system,2026-01-09 17:52:51.878000+05:30,2026-01-09,Friday,'17:52:51.878000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,choose_language,application,2026-01-09 17:52:56.046000+05:30,2026-01-09,Friday,'17:52:56.046000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_Language,application,2026-01-09 17:52:56.086000+05:30,2026-01-09,Friday,'17:52:56.086000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,choose_language,application,2026-01-09 17:52:56.133000+05:30,2026-01-09,Friday,'17:52:56.133000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,enquire_now,application,2026-01-09 18:04:32.679000+05:30,2026-01-09,Friday,'18:04:32.679000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,enter_otp,application,2026-01-09 17:54:32.904000+05:30,2026-01-09,Friday,'17:54:32.904000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_Language,application,2026-01-09 17:52:56.147000+05:30,2026-01-09,Friday,'17:52:56.147000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,generate_otp,application,2026-01-09 17:53:06.145000+05:30,2026-01-09,Friday,'17:53:06.145000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_get_otp,application,2026-01-09 17:53:06.175000+05:30,2026-01-09,Friday,'17:53:06.175000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:53:07.121000+05:30,2026-01-09,Friday,'17:53:07.121000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:53:07.126000+05:30,2026-01-09,Friday,'17:53:07.126000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:53:26.042000+05:30,2026-01-09,Friday,'17:53:26.042000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:53:43.347000+05:30,2026-01-09,Friday,'17:53:43.347000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:54:04.961000+05:30,2026-01-09,Friday,'17:54:04.961000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:54:27.839000+05:30,2026-01-09,Friday,'17:54:27.839000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,login,application,2026-01-09 17:54:33.560000+05:30,2026-01-09,Friday,'17:54:33.560000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_booking_details,application,2026-01-09 17:59:54.102000+05:30,2026-01-09,Friday,'17:59:54.102000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_bus_list,application,2026-01-09 17:57:40.744000+05:30,2026-01-09,Friday,'17:57:40.744000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_bus_list,application,2026-01-09 18:04:16.847000+05:30,2026-01-09,Friday,'18:04:16.847000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_bus_list,application,2026-01-09 18:07:32.745000+05:30,2026-01-09,Friday,'18:07:32.745000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_seat_selection,application,2026-01-09 17:57:58.908000+05:30,2026-01-09,Friday,'17:57:58.908000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:53:07.163000+05:30,2026-01-09,Friday,'17:53:07.163000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 17:53:10.764000+05:30,2026-01-09,Friday,'17:53:10.764000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-09 17:53:16.227000+05:30,2026-01-09,Friday,'17:53:16.227000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 17:53:16.230000+05:30,2026-01-09,Friday,'17:53:16.230000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,resend_otp,application,2026-01-09 17:53:25.742000+05:30,2026-01-09,Friday,'17:53:25.742000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:53:26.023000+05:30,2026-01-09,Friday,'17:53:26.023000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:53:26.042000+05:30,2026-01-09,Friday,'17:53:26.042000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:53:26.063000+05:30,2026-01-09,Friday,'17:53:26.063000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,resend_otp,application,2026-01-09 17:53:43.075000+05:30,2026-01-09,Friday,'17:53:43.075000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:53:43.335000+05:30,2026-01-09,Friday,'17:53:43.335000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:53:43.347000+05:30,2026-01-09,Friday,'17:53:43.347000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:53:43.389000+05:30,2026-01-09,Friday,'17:53:43.389000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,resend_otp,application,2026-01-09 17:54:04.460000+05:30,2026-01-09,Friday,'17:54:04.460000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:54:04.946000+05:30,2026-01-09,Friday,'17:54:04.946000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:54:04.961000+05:30,2026-01-09,Friday,'17:54:04.961000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:54:04.998000+05:30,2026-01-09,Friday,'17:54:04.998000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,resend_otp,application,2026-01-09 17:54:27.401000+05:30,2026-01-09,Friday,'17:54:27.401000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,seats_finalized,application,2026-01-09 17:59:48.209000+05:30,2026-01-09,Friday,'17:59:48.209000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,select_seat,application,2026-01-09 17:58:14.642000+05:30,2026-01-09,Friday,'17:58:14.642000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,select_seat,application,2026-01-09 17:58:15.342000+05:30,2026-01-09,Friday,'17:58:15.342000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,select_seat,application,2026-01-09 17:58:16.135000+05:30,2026-01-09,Friday,'17:58:16.135000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,select_seat,application,2026-01-09 18:01:28.961000+05:30,2026-01-09,Friday,'18:01:28.961000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_generate-otp,application,2026-01-09 17:54:27.823000+05:30,2026-01-09,Friday,'17:54:27.823000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,get_otp,application,2026-01-09 17:54:27.839000+05:30,2026-01-09,Friday,'17:54:27.839000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Onboarding_signup_,application,2026-01-09 17:54:27.874000+05:30,2026-01-09,Friday,'17:54:27.874000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,verify_otp,application,2026-01-09 17:54:32.558000+05:30,2026-01-09,Friday,'17:54:32.558000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_auth_verify-otp,application,2026-01-09 17:54:32.892000+05:30,2026-01-09,Friday,'17:54:32.892000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,enter_otp,application,2026-01-09 17:54:32.904000+05:30,2026-01-09,Friday,'17:54:32.904000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,User Login,system,2026-01-09 17:54:33.309000+05:30,2026-01-09,Friday,'17:54:33.309000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,login,application,2026-01-09 17:54:33.560000+05:30,2026-01-09,Friday,'17:54:33.560000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:54:35.633000+05:30,2026-01-09,Friday,'17:54:35.633000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 17:54:36.283000+05:30,2026-01-09,Friday,'17:54:36.283000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:54:39.527000+05:30,2026-01-09,Friday,'17:54:39.527000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 17:54:39.688000+05:30,2026-01-09,Friday,'17:54:39.688000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 17:54:39.772000+05:30,2026-01-09,Friday,'17:54:39.772000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user_device,application,2026-01-09 17:54:39.988000+05:30,2026-01-09,Friday,'17:54:39.988000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:54:40.013000+05:30,2026-01-09,Friday,'17:54:40.013000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:54:40.098000+05:30,2026-01-09,Friday,'17:54:40.098000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 17:54:40.332000+05:30,2026-01-09,Friday,'17:54:40.332000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:55:09.125000+05:30,2026-01-09,Friday,'17:55:09.125000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:09.518000+05:30,2026-01-09,Friday,'17:55:09.518000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:55:31.172000+05:30,2026-01-09,Friday,'17:55:31.172000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:31.389000+05:30,2026-01-09,Friday,'17:55:31.389000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:55:41.071000+05:30,2026-01-09,Friday,'17:55:41.071000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:55:41.332000+05:30,2026-01-09,Friday,'17:55:41.332000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 17:57:08.830000+05:30,2026-01-09,Friday,'17:57:08.830000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:57:10.644000+05:30,2026-01-09,Friday,'17:57:10.644000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 17:57:10.659000+05:30,2026-01-09,Friday,'17:57:10.659000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 17:57:10.808000+05:30,2026-01-09,Friday,'17:57:10.808000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:57:10.937000+05:30,2026-01-09,Friday,'17:57:10.937000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:57:11.138000+05:30,2026-01-09,Friday,'17:57:11.138000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 17:57:11.184000+05:30,2026-01-09,Friday,'17:57:11.184000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 17:57:22.454000+05:30,2026-01-09,Friday,'17:57:22.454000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 17:57:25.153000+05:30,2026-01-09,Friday,'17:57:25.153000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 17:57:40.166000+05:30,2026-01-09,Friday,'17:57:40.166000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 17:57:40.648000+05:30,2026-01-09,Friday,'17:57:40.648000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_user-bus-search,application,2026-01-09 17:57:40.662000+05:30,2026-01-09,Friday,'17:57:40.662000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_bus_list,application,2026-01-09 17:57:40.744000+05:30,2026-01-09,Friday,'17:57:40.744000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_list,application,2026-01-09 17:57:44.298000+05:30,2026-01-09,Friday,'17:57:44.298000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_rewards_best-V2,application,2026-01-09 17:57:45.170000+05:30,2026-01-09,Friday,'17:57:45.170000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 17:57:45.179000+05:30,2026-01-09,Friday,'17:57:45.179000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_search,application,2026-01-09 17:57:45.364000+05:30,2026-01-09,Friday,'17:57:45.364000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_result,application,2026-01-09 17:57:45.374000+05:30,2026-01-09,Friday,'17:57:45.374000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_bus_selection,application,2026-01-09 17:57:58.846000+05:30,2026-01-09,Friday,'17:57:58.846000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_detail,application,2026-01-09 17:57:58.866000+05:30,2026-01-09,Friday,'17:57:58.866000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_seat_selection,application,2026-01-09 17:57:58.908000+05:30,2026-01-09,Friday,'17:57:58.908000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,SeatSelection_Click On Back,application,2026-01-09 17:57:58.918000+05:30,2026-01-09,Friday,'17:57:58.918000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_v2_layout,application,2026-01-09 17:57:59.328000+05:30,2026-01-09,Friday,'17:57:59.328000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_profile,application,2026-01-09 17:57:59.340000+05:30,2026-01-09,Friday,'17:57:59.340000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,select_seat,application,2026-01-09 17:58:14.642000+05:30,2026-01-09,Friday,'17:58:14.642000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 17:58:28.758000+05:30,2026-01-09,Friday,'17:58:28.758000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-09 17:58:28.913000+05:30,2026-01-09,Friday,'17:58:28.913000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 17:58:28.918000+05:30,2026-01-09,Friday,'17:58:28.918000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,boarding_change_pickup,application,2026-01-09 17:59:04.357000+05:30,2026-01-09,Friday,'17:59:04.357000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,seats_finalized,application,2026-01-09 17:59:48.209000+05:30,2026-01-09,Friday,'17:59:48.209000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-09 17:59:48.254000+05:30,2026-01-09,Friday,'17:59:48.254000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Boarding_drop_locations,application,2026-01-09 17:59:48.439000+05:30,2026-01-09,Friday,'17:59:48.439000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_booking_details,application,2026-01-09 17:59:54.102000+05:30,2026-01-09,Friday,'17:59:54.102000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,auto_apply_coupon,application,2026-01-09 17:59:54.130000+05:30,2026-01-09,Friday,'17:59:54.130000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_get-distance,application,2026-01-09 17:59:54.667000+05:30,2026-01-09,Friday,'17:59:54.667000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_coupon,application,2026-01-09 17:59:54.678000+05:30,2026-01-09,Friday,'17:59:54.678000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,PaymentPage_DiscountApplied,application,2026-01-09 17:59:54.700000+05:30,2026-01-09,Friday,'17:59:54.700000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 17:59:54.781000+05:30,2026-01-09,Friday,'17:59:54.781000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_profile,application,2026-01-09 17:59:54.896000+05:30,2026-01-09,Friday,'17:59:54.896000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 18:00:14.302000+05:30,2026-01-09,Friday,'18:00:14.302000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Delivered,system,2026-01-09 18:00:22.301000+05:30,2026-01-09,Friday,'18:00:22.301000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Impression,system,2026-01-09 18:00:22.327000+05:30,2026-01-09,Friday,'18:00:22.327000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Sent,system,2026-01-09 18:00:40.689000+05:30,2026-01-09,Friday,'18:00:40.689000
 54150429-bd8a-4a8d-b15c-2bef4b9ea77b,view_all_discount_coupon,application,2026-01-09 18:00:44.860000+05:30,2026-01-09,Friday,'18:00:44.860000
-54150429-bd8a-4a8d-b15c-2bef4b9ea77b,view_all_discount_coupon,application,2026-01-09 18:00:50.005000+05:30,2026-01-09,Friday,'18:00:50.005000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,PaymentPage_Click On Back,application,2026-01-09 18:01:22.297000+05:30,2026-01-09,Friday,'18:01:22.297000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,booking_page_dropoff,application,2026-01-09 18:01:22.317000+05:30,2026-01-09,Friday,'18:01:22.317000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,booking_dropoff_popup,application,2026-01-09 18:01:28.819000+05:30,2026-01-09,Friday,'18:01:28.819000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,checkout_backpress,application,2026-01-09 18:01:28.939000+05:30,2026-01-09,Friday,'18:01:28.939000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,backpress,application,2026-01-09 18:01:28.950000+05:30,2026-01-09,Friday,'18:01:28.950000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,select_seat,application,2026-01-09 18:01:28.961000+05:30,2026-01-09,Friday,'18:01:28.961000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 18:03:00.385000+05:30,2026-01-09,Friday,'18:03:00.385000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 18:03:01.749000+05:30,2026-01-09,Friday,'18:03:01.749000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:03:02.053000+05:30,2026-01-09,Friday,'18:03:02.053000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:27.719000+05:30,2026-01-09,Friday,'18:03:27.719000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:03:55.254000+05:30,2026-01-09,Friday,'18:03:55.254000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:03:55.360000+05:30,2026-01-09,Friday,'18:03:55.360000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 18:04:14.137000+05:30,2026-01-09,Friday,'18:04:14.137000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 18:04:16.705000+05:30,2026-01-09,Friday,'18:04:16.705000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:04:16.716000+05:30,2026-01-09,Friday,'18:04:16.716000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_user-bus-search,application,2026-01-09 18:04:16.771000+05:30,2026-01-09,Friday,'18:04:16.771000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_bus_list,application,2026-01-09 18:04:16.847000+05:30,2026-01-09,Friday,'18:04:16.847000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:04:17.209000+05:30,2026-01-09,Friday,'18:04:17.209000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 18:04:17.778000+05:30,2026-01-09,Friday,'18:04:17.778000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_list,application,2026-01-09 18:04:23.186000+05:30,2026-01-09,Friday,'18:04:23.186000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_rewards_best-V2,application,2026-01-09 18:04:24.036000+05:30,2026-01-09,Friday,'18:04:24.036000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 18:04:24.058000+05:30,2026-01-09,Friday,'18:04:24.058000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_search,application,2026-01-09 18:04:24.081000+05:30,2026-01-09,Friday,'18:04:24.081000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_result,application,2026-01-09 18:04:24.093000+05:30,2026-01-09,Friday,'18:04:24.093000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_Live Chat Icon,application,2026-01-09 18:04:32.554000+05:30,2026-01-09,Friday,'18:04:32.554000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,enquire_now,application,2026-01-09 18:04:32.679000+05:30,2026-01-09,Friday,'18:04:32.679000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Started,system,2026-01-09 18:04:53.105000+05:30,2026-01-09,Friday,'18:04:53.105000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 18:05:34.888000+05:30,2026-01-09,Friday,'18:05:34.888000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:05:45.706000+05:30,2026-01-09,Friday,'18:05:45.706000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:05:45.955000+05:30,2026-01-09,Friday,'18:05:45.955000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 18:07:05.604000+05:30,2026-01-09,Friday,'18:07:05.604000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 18:07:07.768000+05:30,2026-01-09,Friday,'18:07:07.768000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:07:07.883000+05:30,2026-01-09,Friday,'18:07:07.883000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 18:07:07.937000+05:30,2026-01-09,Friday,'18:07:07.937000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:07:08.067000+05:30,2026-01-09,Friday,'18:07:08.067000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:07:08.171000+05:30,2026-01-09,Friday,'18:07:08.171000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 18:07:08.472000+05:30,2026-01-09,Friday,'18:07:08.472000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:07:13.264000+05:30,2026-01-09,Friday,'18:07:13.264000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_elastic-town-search,application,2026-01-09 18:07:15.750000+05:30,2026-01-09,Friday,'18:07:15.750000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 18:07:32.213000+05:30,2026-01-09,Friday,'18:07:32.213000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:07:32.711000+05:30,2026-01-09,Friday,'18:07:32.711000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_user-bus-search,application,2026-01-09 18:07:32.733000+05:30,2026-01-09,Friday,'18:07:32.733000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,pageview_bus_list,application,2026-01-09 18:07:32.745000+05:30,2026-01-09,Friday,'18:07:32.745000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_bus-search_list,application,2026-01-09 18:07:38.395000+05:30,2026-01-09,Friday,'18:07:38.395000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_rewards_best-V2,application,2026-01-09 18:07:39.219000+05:30,2026-01-09,Friday,'18:07:39.219000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Buslist_date change,application,2026-01-09 18:07:39.233000+05:30,2026-01-09,Friday,'18:07:39.233000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_search,application,2026-01-09 18:07:39.427000+05:30,2026-01-09,Friday,'18:07:39.427000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,bus_result,application,2026-01-09 18:07:39.434000+05:30,2026-01-09,Friday,'18:07:39.434000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-09 18:15:32.269000+05:30,2026-01-09,Friday,'18:15:32.269000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Sent,system,2026-01-09 18:15:35.083000+05:30,2026-01-09,Friday,'18:15:35.083000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Session Started,system,2026-01-09 18:20:16.936000+05:30,2026-01-09,Friday,'18:20:16.936000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Delivered,system,2026-01-09 18:20:25.194000+05:30,2026-01-09,Friday,'18:20:25.194000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Impression,system,2026-01-09 18:20:26.837000+05:30,2026-01-09,Friday,'18:20:26.837000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-09 18:20:28.581000+05:30,2026-01-09,Friday,'18:20:28.581000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_history_recommended-journey,application,2026-01-09 18:20:36.128000+05:30,2026-01-09,Friday,'18:20:36.128000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:20:36.222000+05:30,2026-01-09,Friday,'18:20:36.222000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_from-town,application,2026-01-09 18:20:36.306000+05:30,2026-01-09,Friday,'18:20:36.306000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_user,application,2026-01-09 18:20:36.488000+05:30,2026-01-09,Friday,'18:20:36.488000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_location_special-town-search,application,2026-01-09 18:20:36.754000+05:30,2026-01-09,Friday,'18:20:36.754000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,_ticket,application,2026-01-09 18:20:36.811000+05:30,2026-01-09,Friday,'18:20:36.811000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Dismiss,system,2026-01-09 18:23:46.311000+05:30,2026-01-09,Friday,'18:23:46.311000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Journey Ended,system,2026-01-10 00:20:43.830000+05:30,2026-01-10,Saturday,'00:20:43.830000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,App Uninstalled,system,2026-01-10 03:30:46.359000+05:30,2026-01-10,Saturday,'03:30:46.359000
+54150429-bd8a-4a8d-b15c-2bef4b9ea77b,Push Failure,system,2026-01-10 17:53:48.109000+05:30,2026-01-10,Saturday,'17:53:48.109000

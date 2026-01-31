@@ -3,21 +3,39 @@ import os
 from google import genai
 from openai import OpenAI
 from typing import Dict, Any, Generator
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def get_ai_response(prompt: str) -> Dict[str, Any]:
+    try:
+        gemini_key_1 = st.secrets.get("GEMINI_API_KEY", None)
+    except:
+        gemini_key_1 = None
+
+    try:
+        gemini_key_2 = st.secrets.get("GEMINI_API_KEY_2", None)
+    except:
+        gemini_key_2 = None
+
+    try:
+        openai_key = st.secrets.get("OPENAI_API_KEY", None)
+    except:
+        openai_key = None
+
     gemini_keys = [
-        st.secrets.get("GEMINI_API_KEY") or os.environ.get("GEMINI_API_KEY"),
-        st.secrets.get("GEMINI_API_KEY_2") or os.environ.get("GEMINI_API_KEY_2"),
+        gemini_key_1 or os.environ.get("GEMINI_API_KEY"),
+        gemini_key_2 or os.environ.get("GEMINI_API_KEY_2"),
     ]
     gemini_keys = [k for k in gemini_keys if k]
-    openai_key = st.secrets.get("OPENAI_API_KEY") or os.environ.get("OPENAI_API_KEY")
+    openai_key = openai_key or os.environ.get("OPENAI_API_KEY")
 
     for i, gemini_key in enumerate(gemini_keys):
         try:
             client = genai.Client(api_key=gemini_key)
             response = client.models.generate_content(
-                model="gemini-2.0-flash",
+                model="gemini-3-pro-preview",
                 contents=prompt
             )
             return {"success": True, "content": response.text, "provider": f"gemini_{i + 1}"}
@@ -41,12 +59,27 @@ def get_ai_response(prompt: str) -> Dict[str, Any]:
 
 
 def get_ai_response_stream(prompt: str) -> Generator[Dict[str, Any], None, None]:
+    try:
+        gemini_key_1 = st.secrets.get("GEMINI_API_KEY", None)
+    except:
+        gemini_key_1 = None
+
+    try:
+        gemini_key_2 = st.secrets.get("GEMINI_API_KEY_2", None)
+    except:
+        gemini_key_2 = None
+
+    try:
+        openai_key = st.secrets.get("OPENAI_API_KEY", None)
+    except:
+        openai_key = None
+
     gemini_keys = [
-        st.secrets.get("GEMINI_API_KEY") or os.environ.get("GEMINI_API_KEY"),
-        st.secrets.get("GEMINI_API_KEY_2") or os.environ.get("GEMINI_API_KEY_2"),
+        gemini_key_1 or os.environ.get("GEMINI_API_KEY"),
+        gemini_key_2 or os.environ.get("GEMINI_API_KEY_2"),
     ]
     gemini_keys = [k for k in gemini_keys if k]
-    openai_key = st.secrets.get("OPENAI_API_KEY") or os.environ.get("OPENAI_API_KEY")
+    openai_key = openai_key or os.environ.get("OPENAI_API_KEY")
 
     for i, gemini_key in enumerate(gemini_keys):
         try:
