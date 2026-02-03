@@ -93,11 +93,20 @@ def main():
     print("\n" + "=" * 60)
     patterns = discovery.discover(app_events, profile_data)
 
+    # Apply LLM synthesis for enhanced insights
+    print("\n" + "=" * 60)
+    print("🤖 Applying LLM Synthesis Layer...")
+    print("=" * 60)
+    synthesized_patterns = discovery.synthesize_with_llm(
+        patterns,
+        business_context="bus ticket booking mobile app"
+    )
+
     # Print summary
-    discovery.print_summary(patterns)
+    discovery.print_summary(synthesized_patterns)
 
     # Save results
-    discovery.save_patterns(patterns, 'pattern_discovery_report.json')
+    discovery.save_patterns(synthesized_patterns, 'pattern_discovery_report.json')
 
     # Generate insights report
     print("\n" + "=" * 60)

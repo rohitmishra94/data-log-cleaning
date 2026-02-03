@@ -50,6 +50,15 @@ st.markdown(f"""
 st.divider()
 
 # ============================================================================
+# EXECUTIVE SUMMARY (if LLM insights available)
+# ============================================================================
+if patterns.get('llm_executive_summary'):
+    with st.container():
+        st.markdown("### 📋 Executive Summary")
+        st.info(patterns['llm_executive_summary'])
+        st.divider()
+
+# ============================================================================
 # TAB 1: SEQUENTIAL PATTERNS
 # ============================================================================
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
@@ -66,6 +75,12 @@ with tab1:
 
     seq_patterns = patterns.get('sequential_patterns', {})
     frequent = seq_patterns.get('frequent_patterns', {})
+
+    # Show LLM insights if available
+    if seq_patterns.get('llm_insights'):
+        with st.expander("🤖 LLM Analysis - Sequential Patterns", expanded=True):
+            st.markdown(seq_patterns['llm_insights'])
+        st.divider()
     repetitions = seq_patterns.get('repetition_patterns', {})
 
     col1, col2 = st.columns([2, 1])
@@ -134,7 +149,14 @@ with tab2:
     st.header("👥 User Segments")
     st.markdown("**Behavioral clustering** - distinct user groups with different needs")
 
-    segments = patterns.get('user_segments', {}).get('segments', {})
+    user_segments_data = patterns.get('user_segments', {})
+    segments = user_segments_data.get('segments', {})
+
+    # Show LLM insights if available
+    if user_segments_data.get('llm_insights'):
+        with st.expander("🤖 LLM Analysis - User Personas", expanded=True):
+            st.markdown(user_segments_data['llm_insights'])
+        st.divider()
     total_users = patterns.get('user_segments', {}).get('total_users', 0)
 
     col1, col2 = st.columns([1, 2])
@@ -239,6 +261,12 @@ with tab3:
     st.markdown("**Events causing user hesitation** - where users get stuck")
 
     friction = patterns.get('friction_points', {})
+
+    # Show LLM insights if available
+    if friction.get('llm_insights'):
+        with st.expander("🤖 LLM Analysis - Root Cause & Solutions", expanded=True):
+            st.markdown(friction['llm_insights'])
+        st.divider()
     high_friction = friction.get('high_friction_events', {})
 
     col1, col2 = st.columns([2, 1])
@@ -378,6 +406,12 @@ with tab5:
     st.markdown("**Automated rules** - conditions that predict user drop-off")
 
     rules = patterns.get('intervention_rules', {})
+
+    # Show LLM insights if available
+    if rules.get('llm_insights'):
+        with st.expander("🤖 LLM Analysis - Intervention Strategies", expanded=True):
+            st.markdown(rules['llm_insights'])
+        st.divider()
     triggers = rules.get('intervention_triggers', [])
 
     if triggers:

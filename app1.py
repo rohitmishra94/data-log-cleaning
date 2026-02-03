@@ -5,6 +5,7 @@ import json
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
+import numpy as np
 
 from insights.journey_builder import (
     build_user_journey,
@@ -69,7 +70,7 @@ u3.metric(
 
 st.divider()
 
-main_tab1, main_tab2, main_tab3 = st.tabs(["Data", "Analysis", "Session Analysis"])
+main_tab1, main_tab2, main_tab3, main_tab4 = st.tabs(["Data", "Analysis", "Session Analysis", "Pattern Discovery"])
 
 with main_tab1:
     st.header("User Data")
@@ -385,6 +386,264 @@ with main_tab3:
         **Last Updated**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
         **Data Source**: Commuter Users Event Data
         """)
+
+with main_tab4:
+    st.header("🔍 Pattern Discovery")
+    st.markdown("*Behavioral patterns discovered through machine learning algorithms*")
+
+    # Load pattern discovery data
+    @st.cache_data
+    def load_pattern_data():
+        """Load pattern discovery report"""
+        try:
+            with open('pattern_discovery_report.json', 'r') as f:
+                patterns = json.load(f)
+            return patterns
+        except FileNotFoundError:
+            st.error("Pattern discovery report not found. Run: python run_pattern_discovery.py")
+            st.stop()
+
+    patterns = load_pattern_data()
+
+    metadata = patterns.get('metadata', {})
+    st.markdown(f"""
+    **Analysis Scope**: {metadata['total_events']:,} events | {metadata['unique_users']:,} users | {metadata['total_sessions']:,} sessions
+    """)
+
+    st.divider()
+
+    # Executive Summary (if LLM insights available)
+    if patterns.get('llm_executive_summary'):
+        with st.container():
+            st.markdown("### 📋 Executive Summary")
+            st.info(patterns['llm_executive_summary'])
+            st.divider()
+
+    # Nested tabs for pattern discovery
+    pattern_tab1, pattern_tab2, pattern_tab3, pattern_tab4, pattern_tab5 = st.tabs([
+        "🔄 Sequential Patterns",
+        "👥 User Segments",
+        "🔥 Friction Analysis",
+        "📉 Survival Analysis",
+        "🎯 Intervention Triggers"
+    ])
+
+    with pattern_tab1:
+        st.subheader("Sequential Patterns")
+        st.markdown("**Most frequent event sequences** - reveals common user journeys and stuck loops")
+
+        seq_patterns = patterns.get('sequential_patterns', {})
+
+        # Show LLM insights if available
+        if seq_patterns.get('llm_insights'):
+            with st.expander("🤖 LLM Analysis - Sequential Patterns", expanded=True):
+                st.markdown(seq_patterns['llm_insights'])
+            st.divider()
+        frequent = seq_patterns.get('frequent_patterns', {})
+        repetitions = seq_patterns.get('repetition_patterns', {})
+
+        col1, col2 = st.columns([2, 1])
+
+        with col1:
+            st.markdown("#### Top 20 Frequent Sequences")
+
+            seq_df = pd.DataFrame([
+                {'Pattern': k, 'Frequency': v, 'Pattern_Length': len(k.split(' → '))}
+                for k, v in list(frequent.items())[:20]
+            ])
+
+            fig = px.bar(
+                seq_df,
+                x='Frequency',
+                y='Pattern',
+                orientation='h',
+                title="Most Common Event Sequences",
+                color='Pattern_Length',
+                color_continuous_scale='Blues',
+                labels={'Frequency': 'Number of Occurrences', 'Pattern_Length': 'Sequence Length'}
+            )
+            fig.update_layout(height=600, showlegend=True, yaxis={'categoryorder':'total ascending'})
+            st.plotly_chart(fig, use_container_width=True)
+
+        with col2:
+            st.markdown("#### Repetition Patterns")
+            st.markdown("*Events users repeat → friction signals*")
+
+            rep_df = pd.DataFrame([
+                {
+                    'Event': k,
+                    'Sessions': v['sessions_with_repetition'],
+                    'Avg Repeats': v['avg_repetitions'],
+                    'Max Repeats': v['max_repetitions']
+                }
+                for k, v in list(repetitions.items())[:5]
+            ])
+
+            for _, row in rep_df.iterrows():
+                st.metric(
+                    row['Event'][:40] + '...' if len(row['Event']) > 40 else row['Event'],
+                    f"{row['Avg Repeats']:.1f}x avg"
+                )
+                st.caption(f"{row['Sessions']} sessions")
+                if row['Avg Repeats'] > 5:
+                    st.error("🔴 CRITICAL FRICTION")
+
+    with pattern_tab2:
+        st.subheader("User Segments")
+        st.markdown("**Behavioral clustering** - distinct user groups with different needs")
+
+        user_segments_data = patterns.get('user_segments', {})
+        segments = user_segments_data.get('segments', {})
+        total_users = user_segments_data.get('total_users', 0)
+
+        # Show LLM insights if available
+        if user_segments_data.get('llm_insights'):
+            with st.expander("🤖 LLM Analysis - User Personas", expanded=True):
+                st.markdown(user_segments_data['llm_insights'])
+            st.divider()
+
+        seg_data = []
+        for seg_name, seg_info in segments.items():
+            seg_data.append({
+                'Segment': seg_name.replace('_', ' ').title(),
+                'Count': seg_info.get('count', 0),
+                'Percentage': seg_info.get('percentage', 0)
+            })
+
+        seg_df = pd.DataFrame(seg_data)
+
+        fig = px.pie(
+            seg_df,
+            values='Count',
+            names='Segment',
+            title=f"User Segments (Total: {total_users:,})",
+            hole=0.5
+        )
+        fig.update_traces(textposition='inside', textinfo='percent+label')
+        st.plotly_chart(fig, use_container_width=True)
+
+        # Segment profiles
+        cols = st.columns(4)
+        for idx, (seg_name, seg_info) in enumerate(segments.items()):
+            with cols[idx % 4]:
+                priority = "🔴" if seg_name == 'strugglers' else "🟢" if seg_name == 'quick_bookers' else "🔵"
+                st.markdown(f"### {priority} {seg_name.replace('_', ' ').title()}")
+                st.metric("Users", f"{seg_info.get('count', 0):,}")
+                st.caption(f"{seg_info.get('percentage', 0):.1f}% of total users")
+
+                if 'characteristics' in seg_info:
+                    chars = seg_info['characteristics']
+                    st.markdown(f"**Avg Events**: {chars.get('avg_events', 0):.0f}")
+                    st.markdown(f"**Diversity**: {chars.get('avg_diversity', 0):.1%}")
+                    st.markdown(f"**Repetition**: {chars.get('avg_repetition', 0):.1%}")
+
+    with pattern_tab3:
+        st.subheader("Friction Analysis")
+        st.markdown("**Events causing user hesitation** - where users get stuck")
+
+        friction = patterns.get('friction_points', {})
+
+        # Show LLM insights if available
+        if friction.get('llm_insights'):
+            with st.expander("🤖 LLM Analysis - Root Cause & Solutions", expanded=True):
+                st.markdown(friction['llm_insights'])
+            st.divider()
+
+        high_friction = friction.get('high_friction_events', {})
+
+        friction_df = pd.DataFrame([
+            {
+                'Event': k[:50] + '...' if len(k) > 50 else k,
+                'Repetition Rate': v['repetition_rate'] * 100,
+                'Users Affected': v['users_affected'],
+                'Friction Score': v['friction_score']
+            }
+            for k, v in list(high_friction.items())[:10]
+        ])
+
+        if not friction_df.empty:
+            fig = px.bar(
+                friction_df,
+                x='Friction Score',
+                y='Event',
+                orientation='h',
+                title="Top Friction Events (Higher = Worse UX)",
+                color='Repetition Rate',
+                color_continuous_scale='Reds',
+                hover_data=['Users Affected']
+            )
+            fig.update_layout(height=400, yaxis={'categoryorder':'total ascending'})
+            st.plotly_chart(fig, use_container_width=True)
+
+    with pattern_tab4:
+        st.subheader("Survival Analysis")
+        st.markdown("**Session survival probability** - likelihood of continuing at each step")
+
+        survival = patterns.get('survival_analysis', {})
+
+        if 'survival_curve' in survival:
+            curve_data = survival['survival_curve']
+            curve_df = pd.DataFrame(curve_data)
+
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(
+                x=curve_df['step'],
+                y=curve_df['survival_rate'] * 100,
+                mode='lines+markers',
+                name='Survival Rate',
+                line=dict(color='#4B9EFF', width=3)
+            ))
+
+            fig.update_layout(
+                title="Session Survival Curve",
+                xaxis_title="Session Step",
+                yaxis_title="Percentage",
+                height=400
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+            col1, col2, col3 = st.columns(3)
+            col1.metric("Median Session Length", f"{survival.get('median_session_length', 0)} events")
+            col2.metric("Reach Step 10", f"{int(survival.get('sessions_reaching_step_10', 0)):,}")
+            col3.metric("Reach Step 20", f"{int(survival.get('sessions_reaching_step_20', 0)):,}")
+
+    with pattern_tab5:
+        st.subheader("Intervention Triggers")
+        st.markdown("**Automated rules** - conditions that predict user drop-off")
+
+        rules = patterns.get('intervention_rules', {})
+
+        # Show LLM insights if available
+        if rules.get('llm_insights'):
+            with st.expander("🤖 LLM Analysis - Intervention Strategies", expanded=True):
+                st.markdown(rules['llm_insights'])
+            st.divider()
+        triggers = rules.get('intervention_triggers', [])
+
+        if triggers:
+            high_risk = [r for r in triggers if r['confidence'] > 0.9]
+            medium_risk = [r for r in triggers if 0.7 <= r['confidence'] <= 0.9]
+
+            col1, col2 = st.columns(2)
+            col1.metric("🔴 High Risk Rules", len(high_risk), ">90% dropout")
+            col2.metric("🟡 Medium Risk Rules", len(medium_risk), "70-90% dropout")
+
+            st.divider()
+
+            for trigger in triggers[:5]:
+                confidence = trigger['confidence']
+                icon = "🔴" if confidence > 0.9 else "🟡"
+
+                with st.expander(f"{icon} **{trigger['condition']}** ({confidence:.0%} dropout risk)"):
+                    col_a, col_b = st.columns(2)
+                    with col_a:
+                        st.markdown("**📊 Risk Assessment**")
+                        st.progress(confidence)
+                        st.markdown(f"Confidence: {confidence:.1%}")
+                        st.markdown(f"Support: {trigger['support']} sessions")
+                    with col_b:
+                        st.markdown("**💡 Recommendation**")
+                        st.markdown(trigger['recommendation'])
 
 st.divider()
 st.caption("All AI analysis is strictly per-user and filtered to application events only.")
