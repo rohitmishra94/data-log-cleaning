@@ -1,11 +1,13 @@
 """
-Autonomous Revenue Analysis Agent using OpenAI Agents SDK.
+Autonomous Revenue Analysis Agent using OpenAI Agents SDK with session memory.
 """
 import os
 import sys
+from datetime import datetime
 from dotenv import load_dotenv
 from agents import Agent, Runner, ModelSettings
 from agents.extensions.models.litellm_model import LitellmModel
+from agents.extensions.memory import AdvancedSQLiteSession
 
 # Add parent directory to path to import tools and prompts
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -20,14 +22,31 @@ bedrock_extra_args = {
 }
 
 
-def run_revenue_analysis(csv_path: str, max_turns: int = 50):
+def run_revenue_analysis(csv_path: str, max_turns: int = 50, session_id: str = None):
     """
-    Run autonomous revenue analysis using OpenAI Agents SDK.
+    Run autonomous revenue analysis using OpenAI Agents SDK with session memory.
 
     Args:
         csv_path: Path to the CSV file to analyze
         max_turns: Maximum number of agent turns (default: 50)
+        session_id: Optional session ID for memory tracking
     """
+
+    # Generate session ID if not provided
+    if session_id is None:
+        session_id = f"revenue_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+
+    # Create session with memory
+    db_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "revenue_sessions.db"
+    )
+
+    session = AdvancedSQLiteSession(
+        session_id=session_id,
+        db_path=db_path,
+        create_tables=True
+    )
 
     # Create the revenue analysis agent
     revenue_agent = Agent(
@@ -90,6 +109,8 @@ def run_revenue_analysis(csv_path: str, max_turns: int = 50):
     print(f"\n🚀 Starting Autonomous Revenue Analysis")
     print(f"📁 CSV: {csv_path}")
     print(f"🔄 Max Turns: {max_turns}")
+    print(f"🆔 Session ID: {session_id}")
+    print(f"💾 Memory DB: {db_path}")
     print(f"🤖 Agent: Revenue Analyst (Claude Sonnet 4)")
     print(f"\n{'='*80}\n")
 
@@ -99,13 +120,15 @@ def run_revenue_analysis(csv_path: str, max_turns: int = 50):
     with open(output_file, 'w') as f:
         f.write("="*80 + "\n")
         f.write("AUTONOMOUS REVENUE ANALYSIS RESULTS\n")
+        f.write(f"Session ID: {session_id}\n")
         f.write("="*80 + "\n\n")
 
-    # Run the agent
+    # Run the agent with session memory
     result = Runner.run_sync(
         starting_agent=revenue_agent,
         input=task,
-        max_turns=max_turns
+        max_turns=max_turns,
+        session=session
     )
 
     print(f"\n{'='*80}")
@@ -147,6 +170,10 @@ if __name__ == "__main__":
         action="store_true",
         help="Run evaluator agent after analysis"
     )
+    parser.add_argument(
+        "--session-id",
+        help="Session ID for memory tracking (optional)"
+    )
 
     args = parser.parse_args()
 
@@ -156,8 +183,8 @@ if __name__ == "__main__":
         print(f"❌ Error: CSV file not found at {csv_path}")
         sys.exit(1)
 
-    # Run the analysis
-    run_revenue_analysis(csv_path, max_turns=args.max_turns)
+    # Run the analysis with session memory
+    run_revenue_analysis(csv_path, max_turns=args.max_turns, session_id=args.session_id)
 
     # Run evaluator if requested
     if args.evaluate:

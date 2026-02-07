@@ -38,14 +38,23 @@ AWS_REGION_NAME=us-east-1
 ### Run Revenue Analysis
 
 ```bash
-# Basic usage
+# Basic usage (auto-generates session ID)
 python agent_sdk.py path/to/data.csv
+
+# With session ID for tracking
+python agent_sdk.py path/to/data.csv --session-id iteration_1
 
 # With max turns
 python agent_sdk.py path/to/data.csv --max-turns 50
 
 # With automatic evaluation
 python agent_sdk.py path/to/data.csv --evaluate
+
+# Full example with all options
+python agent_sdk.py ../Commuter\ Users\ Event\ data.csv \
+  --max-turns 30 \
+  --session-id v2_improvements \
+  --evaluate
 ```
 
 ### Run Evaluator Separately
@@ -143,16 +152,37 @@ Example evaluation output:
 
 ## Session Memory
 
-The evaluator uses SQLite-based session memory to:
-- Track evaluation history
-- Compare improvements over time
-- Maintain context across iterations
-- Enable iterative refinement
+Both agents use SQLite-based session memory to:
+- **Track conversation history** - Previous analyses and evaluations
+- **Learn from feedback** - Remember what worked and what didn't
+- **Compare improvements** - Track changes across iterations
+- **Maintain context** - Continuous conversation across runs
+- **Enable iterative refinement** - Build on previous work
 
-Session IDs can be specified for tracking:
+### Session Databases:
+- **`revenue_sessions.db`** - Revenue agent conversation history
+- **`evaluations.db`** - Evaluator agent assessment history
+
+### Using Sessions:
 ```bash
-python evaluator_agent.py analysis_results.txt --session-id iteration_1
+# First iteration
+python agent_sdk.py data.csv --session-id v1 --evaluate
+
+# Continue conversation in same session
+python agent_sdk.py data.csv --session-id v1 --evaluate
+
+# Start fresh iteration
+python agent_sdk.py data.csv --session-id v2 --evaluate
+
+# View session history
+sqlite3 revenue_sessions.db "SELECT * FROM sessions;"
 ```
+
+Session memory allows the agent to:
+- Reference previous findings
+- Build on earlier analysis
+- Remember user feedback
+- Improve over multiple runs
 
 ## Tools & Prompts
 
