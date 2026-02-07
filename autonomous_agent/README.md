@@ -35,7 +35,28 @@ AWS_REGION_NAME=us-east-1
 
 ## Usage
 
-### Run Revenue Analysis
+### Iterative Analysis (Recommended) 🔄
+
+**Automatically improves analysis based on evaluator feedback**
+
+```bash
+# Run with automatic improvement loop (stops at score > 80% or 3 iterations)
+python iterative_agent.py path/to/data.csv
+
+# Custom target score and max iterations
+python iterative_agent.py path/to/data.csv --target-score 85 --max-iterations 5
+
+# Example
+python iterative_agent.py ../Commuter\ Users\ Event\ data.csv
+```
+
+**How it works:**
+1. Runs revenue analysis
+2. Evaluates results (scores 0-100)
+3. If score < 80%, feeds feedback back to agent
+4. Repeats up to 3 times until score > 80%
+
+### Run Revenue Analysis (Single Pass)
 
 ```bash
 # Basic usage (auto-generates session ID)
@@ -97,9 +118,12 @@ python evaluator_agent.py analysis_results.txt --session-id eval_v2
 
 ```
 autonomous_agent/
-├── analysis_results.txt              # Main analysis report
+├── analysis_results.txt              # Main analysis report (latest)
 ├── analysis_results_evaluation.json  # Evaluation scores & feedback
-├── evaluations.db                    # Session memory database
+├── iteration_history.json            # Iterative improvement history
+├── iteration_feedback.txt            # Feedback sent to agent each iteration
+├── revenue_sessions.db               # Revenue agent session memory
+├── evaluations.db                    # Evaluator session memory
 ├── artifacts/
 │   ├── conversion_funnel.html
 │   ├── dropoff_analysis.html
@@ -109,21 +133,43 @@ autonomous_agent/
     └── [generated analysis scripts]
 ```
 
-## Example Workflow
+## Example Workflows
+
+### Simple Workflow (Single Pass)
 
 ```bash
-# 1. Run analysis with evaluation
 cd autonomous_agent
+
+# Run analysis with evaluation
 python agent_sdk.py ../Commuter\ Users\ Event\ data.csv --evaluate
 
-# 2. View results
+# View results
 cat analysis_results.txt
-
-# 3. View evaluation
 cat analysis_results_evaluation.json
 
-# 4. Open visualizations
+# Open visualizations
 open artifacts/conversion_funnel.html
+```
+
+### Iterative Workflow (Recommended)
+
+```bash
+cd autonomous_agent
+
+# Run iterative improvement loop
+python iterative_agent.py ../Commuter\ Users\ Event\ data.csv
+
+# The agent will:
+# - Iteration 1: Run analysis → Score: 55/100
+# - Iteration 2: Apply feedback → Score: 72/100
+# - Iteration 3: Apply feedback → Score: 83/100 ✓ (>80%, stops)
+
+# View iteration history
+cat iteration_history.json
+
+# View final results
+cat analysis_results.txt
+cat analysis_results_evaluation.json
 ```
 
 ## Key Insights Format
