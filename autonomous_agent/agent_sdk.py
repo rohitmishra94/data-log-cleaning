@@ -142,6 +142,11 @@ if __name__ == "__main__":
         default=50,
         help="Maximum agent turns (default: 50)"
     )
+    parser.add_argument(
+        "--evaluate",
+        action="store_true",
+        help="Run evaluator agent after analysis"
+    )
 
     args = parser.parse_args()
 
@@ -153,3 +158,13 @@ if __name__ == "__main__":
 
     # Run the analysis
     run_revenue_analysis(csv_path, max_turns=args.max_turns)
+
+    # Run evaluator if requested
+    if args.evaluate:
+        print(f"\n{'='*80}")
+        print("🔍 Running Evaluator Agent...")
+        print(f"{'='*80}\n")
+
+        from evaluator_agent import run_evaluation_sync
+        output_file = "/Users/rm/Downloads/projects/data-log-cleaning/autonomous_agent/analysis_results.txt"
+        run_evaluation_sync(output_file)
