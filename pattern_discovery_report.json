@@ -1,0 +1,827 @@
+{
+  "metadata": {
+    "total_events": 546095,
+    "unique_users": 3958,
+    "total_sessions": 37055,
+    "discovery_config": {
+      "min_support": 0.03,
+      "min_confidence": 0.6
+    }
+  },
+  "sequential_patterns": {
+    "total_sequences": 37055,
+    "frequent_patterns": {
+      "_location_elastic-town-search \u2192 _location_elastic-town-search": 148037,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search": 132621,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search": 118361,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search": 105350,
+      "_location_special-town-search \u2192 _location_elastic-town-search": 16017,
+      "select_seat \u2192 select_seat": 15506,
+      "_location_special-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search": 14256,
+      "_location_special-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search": 13265,
+      "_location_special-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search": 12127,
+      "select_seat \u2192 select_seat \u2192 select_seat": 11766,
+      "bus_search \u2192 bus_result": 11657,
+      "_bus-search_list \u2192 _rewards_best-V2": 11259,
+      "Buslist_date change \u2192 bus_search": 10723,
+      "_rewards_best-V2 \u2192 Buslist_date change": 10712,
+      "Buslist_date change \u2192 bus_search \u2192 bus_result": 10545,
+      "_rewards_best-V2 \u2192 Buslist_date change \u2192 bus_search": 10448,
+      "_rewards_best-V2 \u2192 Buslist_date change \u2192 bus_search \u2192 bus_result": 10355,
+      "_bus-search_list \u2192 _rewards_best-V2 \u2192 Buslist_date change": 10295,
+      "_bus-search_list \u2192 _rewards_best-V2 \u2192 Buslist_date change \u2192 bus_search": 10158,
+      "_bus-search_list \u2192 _rewards_best-V2 \u2192 Buslist_date change \u2192 bus_search \u2192 bus_result": 10080,
+      "Buslist_date change \u2192 _user": 9672,
+      "select_seat \u2192 select_seat \u2192 select_seat \u2192 select_seat": 9315,
+      "pageview_seat_selection \u2192 SeatSelection_Click On Back": 8972,
+      "Buslist_bus_selection \u2192 bus_detail": 8331,
+      "bus_detail \u2192 pageview_seat_selection": 8197,
+      "bus_detail \u2192 pageview_seat_selection \u2192 SeatSelection_Click On Back": 7997,
+      "Buslist_bus_selection \u2192 bus_detail \u2192 pageview_seat_selection": 7970,
+      "Buslist_bus_selection \u2192 bus_detail \u2192 pageview_seat_selection \u2192 SeatSelection_Click On Back": 7897,
+      "select_seat \u2192 select_seat \u2192 select_seat \u2192 select_seat \u2192 select_seat": 7666,
+      "_location_elastic-town-search \u2192 _location_special-town-search": 7661,
+      "_user \u2192 pageview_bus_list": 7500,
+      "_location_elastic-town-search \u2192 Buslist_date change": 7216,
+      "choose_language \u2192 Onboarding_Language": 7119,
+      "_location_elastic-town-search \u2192 _location_special-town-search \u2192 _location_elastic-town-search": 7096,
+      "_bus-search_user-bus-search \u2192 _bus-search_list": 6964,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_special-town-search": 6931,
+      "_user \u2192 _location_from-town": 6733,
+      "_location_elastic-town-search \u2192 Buslist_date change \u2192 _user": 6716,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_special-town-search": 6675,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 Buslist_date change": 6629,
+      "_bus-search_user-bus-search \u2192 _bus-search_list \u2192 _rewards_best-V2": 6512,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_special-town-search \u2192 _location_elastic-town-search": 6474,
+      "_location_elastic-town-search \u2192 _location_special-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search": 6422,
+      "_ticket \u2192 _location_special-town-search": 6379,
+      "pageview_bus_list \u2192 _bus-search_user-bus-search": 6327,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_special-town-search": 6317,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_special-town-search \u2192 _location_elastic-town-search": 6254,
+      "_user \u2192 pageview_bus_list \u2192 _bus-search_user-bus-search": 6221,
+      "Buslist_date change \u2192 _user \u2192 pageview_bus_list": 6218,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 Buslist_date change \u2192 _user": 6207
+    },
+    "repetition_patterns": {
+      "_location_elastic-town-search": {
+        "sessions_with_repetition": 15416,
+        "avg_repetitions": 10.602815256875973,
+        "max_repetitions": 188,
+        "total_repeated_events": 148037
+      },
+      "select_seat": {
+        "sessions_with_repetition": 3740,
+        "avg_repetitions": 5.145989304812834,
+        "max_repetitions": 100,
+        "total_repeated_events": 15506
+      },
+      "_user": {
+        "sessions_with_repetition": 3678,
+        "avg_repetitions": 2.15905383360522,
+        "max_repetitions": 34,
+        "total_repeated_events": 4263
+      },
+      "_location_special-town-search": {
+        "sessions_with_repetition": 2797,
+        "avg_repetitions": 2.021809081158384,
+        "max_repetitions": 5,
+        "total_repeated_events": 2858
+      },
+      "booking_page_dropoff": {
+        "sessions_with_repetition": 564,
+        "avg_repetitions": 2.0124113475177303,
+        "max_repetitions": 4,
+        "total_repeated_events": 571
+      },
+      "Onboarding_backpressed": {
+        "sessions_with_repetition": 401,
+        "avg_repetitions": 4.478802992518704,
+        "max_repetitions": 57,
+        "total_repeated_events": 1395
+      },
+      "passenger_card_clicked": {
+        "sessions_with_repetition": 302,
+        "avg_repetitions": 2.748344370860927,
+        "max_repetitions": 30,
+        "total_repeated_events": 528
+      },
+      "_ticket_v2": {
+        "sessions_with_repetition": 239,
+        "avg_repetitions": 2.292887029288703,
+        "max_repetitions": 10,
+        "total_repeated_events": 309
+      },
+      "_ticket": {
+        "sessions_with_repetition": 199,
+        "avg_repetitions": 2.090452261306533,
+        "max_repetitions": 6,
+        "total_repeated_events": 217
+      },
+      "Onboarding_Profile Saved": {
+        "sessions_with_repetition": 166,
+        "avg_repetitions": 2.8734939759036147,
+        "max_repetitions": 28,
+        "total_repeated_events": 311
+      },
+      "view_all_discount_coupon": {
+        "sessions_with_repetition": 154,
+        "avg_repetitions": 2.064935064935065,
+        "max_repetitions": 6,
+        "total_repeated_events": 164
+      },
+      "Buslist_date change": {
+        "sessions_with_repetition": 154,
+        "avg_repetitions": 2.064935064935065,
+        "max_repetitions": 6,
+        "total_repeated_events": 164
+      },
+      "_location_town-search": {
+        "sessions_with_repetition": 111,
+        "avg_repetitions": 2.81981981981982,
+        "max_repetitions": 7,
+        "total_repeated_events": 202
+      },
+      "_location_from-town": {
+        "sessions_with_repetition": 101,
+        "avg_repetitions": 2.0297029702970297,
+        "max_repetitions": 4,
+        "total_repeated_events": 104
+      },
+      "boarding_change_pickup": {
+        "sessions_with_repetition": 97,
+        "avg_repetitions": 2.195876288659794,
+        "max_repetitions": 6,
+        "total_repeated_events": 116
+      },
+      "choose_language": {
+        "sessions_with_repetition": 88,
+        "avg_repetitions": 2.0681818181818183,
+        "max_repetitions": 3,
+        "total_repeated_events": 94
+      },
+      "Onboarding_Language": {
+        "sessions_with_repetition": 80,
+        "avg_repetitions": 2.0875,
+        "max_repetitions": 3,
+        "total_repeated_events": 87
+      },
+      "_bus-search_list": {
+        "sessions_with_repetition": 54,
+        "avg_repetitions": 2.1296296296296298,
+        "max_repetitions": 5,
+        "total_repeated_events": 61
+      },
+      "_profile": {
+        "sessions_with_repetition": 54,
+        "avg_repetitions": 2.037037037037037,
+        "max_repetitions": 3,
+        "total_repeated_events": 56
+      },
+      "bus_result": {
+        "sessions_with_repetition": 53,
+        "avg_repetitions": 2.018867924528302,
+        "max_repetitions": 3,
+        "total_repeated_events": 54
+      }
+    },
+    "dropout_sequences": {
+      "bus_search \u2192 bus_result": 4805,
+      "Buslist_date change \u2192 bus_search \u2192 bus_result": 4472,
+      "_auth_verify-otp \u2192 enter_otp": 3840,
+      "verify_otp \u2192 _auth_verify-otp \u2192 enter_otp": 3796,
+      "_profile \u2192 _bus-search_v2_layout": 2666,
+      "SeatSelection_Click On Back \u2192 _profile \u2192 _bus-search_v2_layout": 2511,
+      "generate_otp \u2192 Onboarding_get_otp": 1822,
+      "Onboarding_Language \u2192 generate_otp \u2192 Onboarding_get_otp": 1635,
+      "choose_language \u2192 Onboarding_Language": 1623,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search": 1553,
+      "pageview_seat_selection \u2192 SeatSelection_Click On Back": 1383,
+      "_location_elastic-town-search \u2192 _location_elastic-town-search \u2192 _location_elastic-town-search": 1327,
+      "Onboarding_Language \u2192 choose_language \u2192 Onboarding_Language": 1196,
+      "bus_detail \u2192 pageview_seat_selection \u2192 SeatSelection_Click On Back": 1182,
+      "get_otp \u2192 Onboarding_signup_": 945,
+      "_auth_generate-otp \u2192 get_otp \u2192 Onboarding_signup_": 944,
+      "_bus-search_v2_layout \u2192 _profile": 937,
+      "SeatSelection_Click On Back \u2192 _profile": 925,
+      "pageview_seat_selection \u2192 SeatSelection_Click On Back \u2192 _profile": 917,
+      "SeatSelection_Click On Back \u2192 _bus-search_v2_layout \u2192 _profile": 850,
+      "SeatSelection_Click On Back \u2192 _bus-search_v2_layout": 707,
+      "pageview_seat_selection \u2192 SeatSelection_Click On Back \u2192 _bus-search_v2_layout": 705,
+      "select_seat \u2192 select_seat": 598,
+      "_location_special-town-search \u2192 _location_elastic-town-search": 521,
+      "Buslist_Live Chat Icon \u2192 enquire_now": 433,
+      "select_seat \u2192 select_seat \u2192 select_seat": 399,
+      "_location_special-town-search \u2192 _ticket": 386,
+      "_user \u2192 _location_special-town-search \u2192 _ticket": 364,
+      "payment_initiate \u2192 _ticket": 333,
+      "_ticket \u2192 _location_special-town-search": 332
+    },
+    "llm_insights": "Based on the sequential pattern data provided, here is the analysis of user behavior for the bus ticket booking app.\n\n### 1. Key Insights\n*   **Search Friction / Data Pollution:** The `_location_elastic-town-search` event is overwhelmingly dominant, with users repeating this action an average of **10.6 times** per session. The sequence data shows a continuous loop of this event (A \u2192 A \u2192 A...).\n*   **The \"Popular City\" Failure:** Users frequently tap `_location_special-town-search` (likely a \"Popular Cities\" or \"Recent\" shortcut) but immediately revert to the manual `elastic-town-search`. This indicates the shortcuts are not meeting user intent.\n*   **Authentication Wall:** A significant cluster of users drops off during the OTP process (`_auth_verify-otp \u2192 enter_otp`), indicating a critical failure in the login/signup flow.\n*   **Window Shopping & Disappointment:** Users are modifying dates (`Buslist_date change`) and then dropping off after viewing results (`bus_result`). This suggests they are price-hunting or checking availability but finding unsatisfactory options.\n*   **Seat Selection Indecision:** The `select_seat` event has an average of ~5 repetitions per session. While some iteration is normal, extreme cases (100 repetitions) suggest UI confusion or \"seat unavailable\" errors.\n\n### 2. Root Causes\n*   **Search:**\n    *   **Technical Implementation:** The analytics are likely tracking **every keystroke** as an event rather than the final search submission (hence 10+ repetitions to type a city name).\n    *   **Poor Algorithms:** The \"Elastic\" search is likely not returning the desired city quickly enough, forcing users to type the full name or re-type queries.\n*   **Authentication:**\n    *   **SMS Latency:** OTPs are likely arriving too late or not at all.\n    *   **UI Friction:** The keyboard might not be auto-opening, or auto-read OTP is failing.\n*   **Dropout at Results:**\n    *   **Inventory Gaps:** Users change dates because the preferred date has no buses.\n    *   **Price Shock:** Users view the list, see high prices, check another date, see high prices again, and churn.\n\n### 3. Business Impact\n*   **Inflated Data Costs:** The massive volume of search events (148k+) creates data noise, making it hard to calculate true \"Search-to-Booking\" conversion rates.\n*   **High Customer Acquisition Cost (CAC) Waste:** The OTP drop-off is the most damaging. These are high-intent users (warm leads) who are blocked by technical friction.\n*   **Lost Revenue:** The `bus_search \u2192 bus_result` dropout represents direct demand that is not being captured due to pricing or inventory mismatch.\n\n### 4. Recommendations\n\n**Technical & Analytics Clean-up**\n*   **Debounce Search Events:** Modify analytics to trigger a search event only after the user stops typing for 1 second, or only when a selection is clicked. Do not track every keystroke.\n*   **Audit OTP Infrastructure:** Immediately check SMS gateway delivery rates and latency. Implement a fallback method (WhatsApp OTP or \"Resend via Call\").\n\n**UX Improvements**\n*   **Optimize \"Special Town\" List:** Analyze which cities users type *after* clicking `special-town-search`. Update the \"Popular Cities\" quick-select buttons to reflect these actual destinations to reduce manual typing.\n*   **Streamline Seat Selection:** If a user selects and deselects seats >5 times, trigger a tooltip explaining seat types (e.g., \"Sleeper vs. Seater\") or check for \"Already Booked\" error bugs.\n\n**Inventory & Strategy**\n*   **Analyze \"Zero Result\" Searches:** Segment the `bus_result` drop-offs. If they are seeing 0 buses, the inventory team needs to acquire buses for those specific routes/dates.\n*   **Price Comparison Feature:** Since users are toggling dates (`Buslist_date change`) and leaving, show a \"+/- 1 day\" price calendar on the result page so they don't have to go back and forth."
+  },
+  "user_segments": {
+    "total_users": 3958,
+    "segments": {
+      "segment_0": {
+        "cluster_id": 0,
+        "count": 3378,
+        "percentage": 85.34613441131886,
+        "characteristics": {
+          "avg_events": 96.56187092954411,
+          "avg_diversity": 0.39475212852847635,
+          "avg_repetition": 0.31241023623562436
+        }
+      },
+      "outliers": {
+        "cluster_id": -1,
+        "count": 580,
+        "percentage": 14.653865588681153,
+        "characteristics": {
+          "avg_events": 379.15344827586205,
+          "avg_diversity": 0.1966784195703799,
+          "avg_repetition": 0.30147958322769475
+        }
+      }
+    },
+    "feature_summary": {
+      "total_events": {
+        "count": 3958.0,
+        "mean": 137.97246083880748,
+        "std": 206.78159431595265,
+        "min": 3.0,
+        "25%": 61.0,
+        "50%": 89.0,
+        "75%": 144.0,
+        "max": 7668.0
+      },
+      "unique_events": {
+        "count": 3958.0,
+        "mean": 32.19984840828701,
+        "std": 10.016601331099928,
+        "min": 3.0,
+        "25%": 27.0,
+        "50%": 30.0,
+        "75%": 35.0,
+        "max": 68.0
+      },
+      "event_diversity": {
+        "count": 3958.0,
+        "mean": 0.3657266734512414,
+        "std": 0.18287308981905512,
+        "min": 0.008346374543557642,
+        "25%": 0.22727272727272727,
+        "50%": 0.3411764705882353,
+        "75%": 0.4807692307692308,
+        "max": 1.0
+      },
+      "time_span_hours": {
+        "count": 3958.0,
+        "mean": 23.63427799793667,
+        "std": 69.51023607609167,
+        "min": 1.0833333333333334e-05,
+        "25%": 0.0397325,
+        "50%": 0.08003083333333333,
+        "75%": 2.569717916666667,
+        "max": 677.2728536111111
+      },
+      "repetition_ratio": {
+        "count": 3958.0,
+        "mean": 0.31080847303587716,
+        "std": 0.16714546825750637,
+        "min": 0.0,
+        "25%": 0.18803418803418803,
+        "50%": 0.2962962962962963,
+        "75%": 0.4157746895328208,
+        "max": 0.8826291079812206
+      },
+      "session_count": {
+        "count": 3958.0,
+        "mean": 9.362051541182415,
+        "std": 11.526810888309964,
+        "min": 1.0,
+        "25%": 5.0,
+        "50%": 6.0,
+        "75%": 9.0,
+        "max": 387.0
+      },
+      "avg_session_length": {
+        "count": 3958.0,
+        "mean": 14.334701062616144,
+        "std": 6.41363583762421,
+        "min": 3.0,
+        "25%": 10.170454545454545,
+        "50%": 13.0,
+        "75%": 17.0,
+        "max": 73.71428571428571
+      },
+      "cluster": {
+        "count": 3958.0,
+        "mean": -0.14653865588681153,
+        "std": 0.3536900963444165,
+        "min": -1.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      }
+    },
+    "llm_insights": "Based on the behavioral cluster data provided, I have analyzed the user base of your bus ticket booking app.\n\nThe data reveals a classic \"80/20\" split (roughly 85/15 here), where the vast majority of your users follow a standard behavioral pattern, while a significant minority is exhibiting \"struggle behavior\" characterized by extreme activity but low feature exploration.\n\nHere is the detailed breakdown:\n\n---\n\n### Segment 0: \"The Standard Explorer\" (The Majority)\n*Representing 85.3% of users*\n\n#### 1. Persona Profile\nThis is your **Ideal Core User**.\n*   **Behavior:** With ~96 events per session, they are engaged enough to complete a booking but efficient enough not to get lost.\n*   **Diversity (0.39):** Their higher diversity score compared to outliers indicates they are traversing the full \"Happy Path.\" They aren't just searching; they are viewing seat maps, checking boarding points, entering passenger details, and interacting with the payment gateway.\n*   **Repetition (0.31):** Moderate repetition suggests they might compare 2-3 bus options or double-check details, but they are generally moving forward in the funnel.\n\n#### 2. Pain Points\n*   **Comparison Friction:** ~96 events is still relatively high for a simple booking (which theoretically takes ~20 clicks). This suggests they are spending significant time clicking back and forth between the *Search Results Listing* and the *Bus Detail/Seat View* to compare amenities or prices.\n*   **Information Scavenging:** They likely have to click into individual bus listings to find critical info (like drop-off points or ratings) rather than seeing it on the main card, driving up their event count and diversity scores.\n\n#### 3. Opportunities\n*   **Listing Card Optimization:** Surface more \"decision-making\" data (Exact drop-off location, AC/Non-AC, Rating) directly on the search result cards to reduce the need to click in and out of specific bus details.\n*   **Comparison Feature:** Introduce a \"Compare\" checkbox feature that allows users to view 2-3 buses side-by-side, reducing the navigation burden.\n*   **Smart Defaults:** Reduce the ~96 events by pre-filling search fields based on past history (e.g., \"Book trip to [Last Destination] again?\").\n\n#### 4. Priority Level: **Strategic / Long-term**\nThese users are likely converting, so the house isn't on fire. The goal here is **Retention and LTV (Lifetime Value)** optimization. Make their life easier so they don't switch to a competitor.\n\n---\n\n### Outliers (Segment -1): \"The Deep-Search Stumbler\"\n*Representing 14.6% of users*\n\n#### 1. Persona Profile\nThis is your **At-Risk / Price Sensitive User**.\n*   **Behavior:** The defining metric is the massive event count (~379 events) combined with **Low Diversity (0.19)**. This is a red flag.\n*   **The Loop:** Low diversity means they are *not* entering the checkout flow or profile settings. They are stuck in a loop of `Search -> Scroll -> Filter -> Change Date -> Search`.\n*   **Intent:** They are likely looking for a specific price point, a specific seat type, or a bus at a specific time that they cannot find. Alternatively, they may be encountering technical errors (loading spinners) that force them to refresh or retry repeatedly.\n\n#### 2. Pain Points\n*   **Inventory Gaps:** They are likely searching for routes or times where inventory is low or sold out, causing them to frantically change dates or filters.\n*   **Filter Failure:** The current filtering options may not be specific enough (e.g., \"Show only Sleeper buses under $20\"), forcing them to doom-scroll through hundreds of results.\n*   **Price Sensitivity:** They are expending high effort to save money, likely manually checking every bus for hidden fees or coupons.\n\n#### 3. Opportunities\n*   **\"No Results\" Handling:** If a user searches 3+ times with no selection, trigger a \"Can't find what you're looking for?\" pop-up offering a \"Notify me when buses are available\" feature.\n*   **Price Watch/Alerts:** Allow these users to track prices for a route rather than manually refreshing 300 times.\n*   **Dynamic Filtering:** If the app detects high scroll depth without clicks, highlight the \"Filter\" or \"Sort by Cheapest\" buttons.\n*   **Technical Audit:** *Crucial Step:* Verify that these aren't technical errors. Check if the \"Book\" button is freezing for 15% of devices, causing users to rage-click (though the low repetition suggests scrolling/searching loops rather than rage-clicks on one button).\n\n#### 4. Priority Level: **Urgent / Immediate**\nThis segment represents **High Churn Risk** and potential server strain.\n1.  **Technical Check:** Rule out bots (scrapers) or UI bugs immediately.\n2.  **UX Fix:** If they are humans, they are having a terrible experience. 15% of your users are doing 4x the work of a normal user. Fixing this funnel could significantly boost conversion rates.\n\n---\n\n### Summary of Actions\n\n| Feature | Segment 0 (The Standard Explorer) | Outliers (The Deep-Search Stumbler) |\n| :--- | :--- | :--- |\n| **Main Characteristic** | Healthy flow, high exploration. | Stuck in search/list view loop. |\n| **Primary Goal** | Efficiency & Speed. | Unblocking & Inventory matching. |\n| **Action Item** | **Enhance Search Cards:** Put more info upfront to reduce clicking in/out. | **Implement \"Saved Search\":** Stop them from manually refreshing 400 times. |\n| **Technical Note** | Monitor conversion time. | **Investigate Bot Activity:** 379 events/session is suspicious. |"
+  },
+  "survival_analysis": {
+    "survival_curve": [
+      {
+        "step": 1,
+        "surviving_sessions": "37055",
+        "survival_rate": 1.0,
+        "dropout_rate": 0.0
+      },
+      {
+        "step": 2,
+        "surviving_sessions": "31398",
+        "survival_rate": 0.8473350425043854,
+        "dropout_rate": 0.1526649574956146
+      },
+      {
+        "step": 3,
+        "surviving_sessions": "30450",
+        "survival_rate": 0.8217514505464849,
+        "dropout_rate": 0.1782485494535151
+      },
+      {
+        "step": 4,
+        "surviving_sessions": "28987",
+        "survival_rate": 0.7822695992443665,
+        "dropout_rate": 0.21773040075563355
+      },
+      {
+        "step": 5,
+        "surviving_sessions": "27085",
+        "survival_rate": 0.7309404938604777,
+        "dropout_rate": 0.26905950613952234
+      },
+      {
+        "step": 6,
+        "surviving_sessions": "24102",
+        "survival_rate": 0.6504385373094049,
+        "dropout_rate": 0.34956146269059507
+      },
+      {
+        "step": 7,
+        "surviving_sessions": "20503",
+        "survival_rate": 0.5533126433679665,
+        "dropout_rate": 0.4466873566320335
+      },
+      {
+        "step": 8,
+        "surviving_sessions": "18138",
+        "survival_rate": 0.4894885980299555,
+        "dropout_rate": 0.5105114019700445
+      },
+      {
+        "step": 9,
+        "surviving_sessions": "15913",
+        "survival_rate": 0.4294427202806639,
+        "dropout_rate": 0.5705572797193361
+      },
+      {
+        "step": 10,
+        "surviving_sessions": "14713",
+        "survival_rate": 0.3970584266630684,
+        "dropout_rate": 0.6029415733369317
+      },
+      {
+        "step": 11,
+        "surviving_sessions": "13809",
+        "survival_rate": 0.37266225880447984,
+        "dropout_rate": 0.6273377411955201
+      },
+      {
+        "step": 12,
+        "surviving_sessions": "12964",
+        "survival_rate": 0.349858318715423,
+        "dropout_rate": 0.650141681284577
+      },
+      {
+        "step": 13,
+        "surviving_sessions": "12138",
+        "survival_rate": 0.3275671299419781,
+        "dropout_rate": 0.6724328700580219
+      },
+      {
+        "step": 14,
+        "surviving_sessions": "11485",
+        "survival_rate": 0.3099446768317366,
+        "dropout_rate": 0.6900553231682633
+      },
+      {
+        "step": 15,
+        "surviving_sessions": "10920",
+        "survival_rate": 0.29469707192011874,
+        "dropout_rate": 0.7053029280798813
+      },
+      {
+        "step": 16,
+        "surviving_sessions": "10407",
+        "survival_rate": 0.2808527863985967,
+        "dropout_rate": 0.7191472136014033
+      },
+      {
+        "step": 17,
+        "surviving_sessions": "9991",
+        "survival_rate": 0.26962623127783025,
+        "dropout_rate": 0.7303737687221697
+      },
+      {
+        "step": 18,
+        "surviving_sessions": "9648",
+        "survival_rate": 0.26036972068546754,
+        "dropout_rate": 0.7396302793145324
+      },
+      {
+        "step": 19,
+        "surviving_sessions": "9314",
+        "survival_rate": 0.2513560922952368,
+        "dropout_rate": 0.7486439077047632
+      },
+      {
+        "step": 20,
+        "surviving_sessions": "8994",
+        "survival_rate": 0.24272028066387802,
+        "dropout_rate": 0.757279719336122
+      },
+      {
+        "step": 21,
+        "surviving_sessions": "8645",
+        "survival_rate": 0.23330184860342734,
+        "dropout_rate": 0.7666981513965727
+      },
+      {
+        "step": 22,
+        "surviving_sessions": "8367",
+        "survival_rate": 0.2257994872486844,
+        "dropout_rate": 0.7742005127513156
+      },
+      {
+        "step": 23,
+        "surviving_sessions": "8056",
+        "survival_rate": 0.21740655781945756,
+        "dropout_rate": 0.7825934421805425
+      },
+      {
+        "step": 24,
+        "surviving_sessions": "7782",
+        "survival_rate": 0.2100121441101066,
+        "dropout_rate": 0.7899878558898934
+      },
+      {
+        "step": 25,
+        "surviving_sessions": "7474",
+        "survival_rate": 0.20170017541492377,
+        "dropout_rate": 0.7982998245850762
+      },
+      {
+        "step": 26,
+        "surviving_sessions": "7166",
+        "survival_rate": 0.1933882067197409,
+        "dropout_rate": 0.8066117932802591
+      },
+      {
+        "step": 27,
+        "surviving_sessions": "6852",
+        "survival_rate": 0.18491431655647012,
+        "dropout_rate": 0.8150856834435298
+      },
+      {
+        "step": 28,
+        "surviving_sessions": "6594",
+        "survival_rate": 0.17795169342868708,
+        "dropout_rate": 0.8220483065713129
+      },
+      {
+        "step": 29,
+        "surviving_sessions": "6349",
+        "survival_rate": 0.171339900148428,
+        "dropout_rate": 0.828660099851572
+      },
+      {
+        "step": 30,
+        "surviving_sessions": "6071",
+        "survival_rate": 0.16383753879368507,
+        "dropout_rate": 0.836162461206315
+      }
+    ],
+    "critical_dropoffs": [
+      {
+        "step": 2,
+        "drop_percentage": 15.266495749561459,
+        "survival_before": 1.0,
+        "survival_after": 0.8473350425043854
+      },
+      {
+        "step": 7,
+        "drop_percentage": 9.712589394143844,
+        "survival_before": 0.6504385373094049,
+        "survival_after": 0.5533126433679665
+      },
+      {
+        "step": 6,
+        "drop_percentage": 8.050195655107274,
+        "survival_before": 0.7309404938604777,
+        "survival_after": 0.6504385373094049
+      },
+      {
+        "step": 8,
+        "drop_percentage": 6.3824045338011,
+        "survival_before": 0.5533126433679665,
+        "survival_after": 0.4894885980299555
+      },
+      {
+        "step": 9,
+        "drop_percentage": 6.00458777492916,
+        "survival_before": 0.4894885980299555,
+        "survival_after": 0.4294427202806639
+      },
+      {
+        "step": 5,
+        "drop_percentage": 5.132910538388879,
+        "survival_before": 0.7822695992443665,
+        "survival_after": 0.7309404938604777
+      }
+    ],
+    "median_session_length": 7,
+    "sessions_reaching_step_10": "14713",
+    "sessions_reaching_step_20": "8994"
+  },
+  "friction_points": {
+    "high_friction_events": {
+      "_location_elastic-town-search": {
+        "repetition_rate": 0.9775613580172465,
+        "avg_time_gap_seconds": 0.4,
+        "friction_score": 97.75613580172465,
+        "total_occurrences": 165830,
+        "users_affected": 3721
+      },
+      "_location_town-search": {
+        "repetition_rate": 0.9591474245115453,
+        "avg_time_gap_seconds": 0.384,
+        "friction_score": 95.91474245115454,
+        "total_occurrences": 563,
+        "users_affected": 23
+      },
+      "select_seat": {
+        "repetition_rate": 0.9448659993542138,
+        "avg_time_gap_seconds": 1.563,
+        "friction_score": 94.48659993542138,
+        "total_occurrences": 24776,
+        "users_affected": 1366
+      },
+      "_user": {
+        "repetition_rate": 0.8926079756766295,
+        "avg_time_gap_seconds": 4.7405,
+        "friction_score": 89.26079756766295,
+        "total_occurrences": 36837,
+        "users_affected": 3956
+      },
+      "apply_filter": {
+        "repetition_rate": 0.8701298701298701,
+        "avg_time_gap_seconds": 4.511,
+        "friction_score": 87.01298701298701,
+        "total_occurrences": 154,
+        "users_affected": 20
+      },
+      "sort_bus": {
+        "repetition_rate": 0.8701298701298701,
+        "avg_time_gap_seconds": 4.499,
+        "friction_score": 87.01298701298701,
+        "total_occurrences": 154,
+        "users_affected": 20
+      },
+      "Buslist_date change": {
+        "repetition_rate": 0.8672547784078976,
+        "avg_time_gap_seconds": 5.426,
+        "friction_score": 86.72547784078975,
+        "total_occurrences": 23805,
+        "users_affected": 3160
+      },
+      "_auth_token": {
+        "repetition_rate": 0.8648648648648649,
+        "avg_time_gap_seconds": 14.896,
+        "friction_score": 86.48648648648648,
+        "total_occurrences": 37,
+        "users_affected": 5
+      },
+      "_location_special-town-search": {
+        "repetition_rate": 0.852744054230018,
+        "avg_time_gap_seconds": 8.532,
+        "friction_score": 85.2744054230018,
+        "total_occurrences": 26111,
+        "users_affected": 3845
+      },
+      "_profile": {
+        "repetition_rate": 0.8445322793148881,
+        "avg_time_gap_seconds": 18.29,
+        "friction_score": 84.45322793148881,
+        "total_occurrences": 10626,
+        "users_affected": 1652
+      },
+      "SeatSelection_Click On Back": {
+        "repetition_rate": 0.8325595478401292,
+        "avg_time_gap_seconds": 15.562,
+        "friction_score": 83.25595478401291,
+        "total_occurrences": 9908,
+        "users_affected": 1659
+      },
+      "pageview_seat_selection": {
+        "repetition_rate": 0.8325595478401292,
+        "avg_time_gap_seconds": 15.218,
+        "friction_score": 83.25595478401291,
+        "total_occurrences": 9908,
+        "users_affected": 1659
+      },
+      "Buslist_bus_selection": {
+        "repetition_rate": 0.8207649092480553,
+        "avg_time_gap_seconds": 14.57,
+        "friction_score": 82.07649092480554,
+        "total_occurrences": 9256,
+        "users_affected": 1659
+      },
+      "bus_detail": {
+        "repetition_rate": 0.8207261724659607,
+        "avg_time_gap_seconds": 14.7795,
+        "friction_score": 82.07261724659607,
+        "total_occurrences": 9254,
+        "users_affected": 1659
+      },
+      "_bus-search_v2_layout": {
+        "repetition_rate": 0.8185771632471008,
+        "avg_time_gap_seconds": 16.5895,
+        "friction_score": 81.85771632471008,
+        "total_occurrences": 8968,
+        "users_affected": 1627
+      },
+      "booking_page_dropoff": {
+        "repetition_rate": 0.8180293501048218,
+        "avg_time_gap_seconds": 1.197,
+        "friction_score": 81.80293501048219,
+        "total_occurrences": 2385,
+        "users_affected": 434
+      },
+      "from_town_select": {
+        "repetition_rate": 0.7727272727272727,
+        "avg_time_gap_seconds": 13.635,
+        "friction_score": 77.27272727272727,
+        "total_occurrences": 88,
+        "users_affected": 20
+      },
+      "to_town_select": {
+        "repetition_rate": 0.7727272727272727,
+        "avg_time_gap_seconds": 13.651,
+        "friction_score": 77.27272727272727,
+        "total_occurrences": 88,
+        "users_affected": 20
+      },
+      "_bus-search_user-bus-search": {
+        "repetition_rate": 0.7670341052008581,
+        "avg_time_gap_seconds": 19.628,
+        "friction_score": 76.70341052008581,
+        "total_occurrences": 13517,
+        "users_affected": 3149
+      },
+      "remove_apnibus_pass": {
+        "repetition_rate": 0.7571428571428571,
+        "avg_time_gap_seconds": 10.479,
+        "friction_score": 75.71428571428571,
+        "total_occurrences": 70,
+        "users_affected": 17
+      }
+    },
+    "llm_insights": "Here is the analysis of the friction points identified in the bus ticket booking app.\n\n### 1. `_location_elastic-town-search`\n* **Metrics:** 97.7% Repetition | 0.4s Gap | 165k Occurrences | 3,721 Users\n\n**Root Cause Hypothesis:**\nThe extremely high repetition rate combined with a 0.4s time gap indicates that **each keystroke is being treated as a separate \"search\" event**, or the user is furiously backspacing and re-typing. The system likely lacks \"debouncing\" (waiting for the user to stop typing before searching). Alternatively, the search algorithm is too strict, returning \"No Results\" instantly while the user is still typing (e.g., typing \"New Y\" shows nothing until \"New York\" is fully complete).\n\n**UX Implications:**\nUsers are likely experiencing a \"flickering\" UI where results appear and disappear rapidly, or they are struggling to find their destination because the auto-complete is aggressive or unhelpful. This creates high cognitive load at the very start of the user journey (Top of Funnel).\n\n**Fix Priority: CRITICAL**\nThis affects a massive number of users and is the gateway to the entire booking process. If they can't find the bus station, they can't book.\n\n**Recommended Solutions:**\n*   **Implement Debouncing:** Delay the search API call until the user stops typing for 300-500ms.\n*   **Fuzzy Search:** Implement an algorithm that handles typos (e.g., \"San Fran\" matches \"San Francisco\").\n*   **Default States:** Show \"Popular Cities\" or \"Recent Searches\" before the user even types to reduce the need for typing.\n\n---\n\n### 2. `select_seat`\n* **Metrics:** 94.4% Repetition | 1.56s Gap | 24k Occurrences | 1,366 Users\n\n**Root Cause Hypothesis:**\nA 1.5-second gap is the signature of the **\"Rage Tap.\"** The user taps a seat, nothing happens (or it doesn't look like anything happened), so they tap again.\n*   *Possibility A:* The touch targets (seats) are too small, leading to \"fat finger\" misses.\n*   *Possibility B:* There is UI latency; the app is slow to visually mark the seat as \"Selected.\"\n*   *Possibility C:* The seat is actually sold/unavailable, but the UI shows it as free. The user taps, gets an error (or no feedback), and tries a different seat.\n\n**UX Implications:**\nThis is a direct revenue blocker. The user has found a bus and wants to pay, but the interface is physically preventing the transaction.\n\n**Fix Priority: HIGH**\nWhile fewer users are affected than the search issue, the intent to purchase here is much higher. Losing these users is a direct loss of sales.\n\n**Recommended Solutions:**\n*   **Expand Touch Targets:** Ensure seat icons have a transparent padding of at least 44x44 pixels, even if the visual icon is smaller.\n*   **Immediate Feedback:** Ensure the seat changes color *instantly* (optimistic UI) upon tap, even before the server confirms the reservation.\n*   **Legend/Error Clarity:** If a seat is unavailable, visually gray it out clearly. If a user taps an unavailable seat, trigger a toast message explaining *why* (e.g., \"Seat reserved by another user\").\n\n---\n\n### 3. `_user`\n* **Metrics:** 89.2% Repetition | 4.7s Gap | 36k Occurrences | 3,956 Users\n\n**Root Cause Hypothesis:**\nThe event name `_user` is vague, but in a booking context, this usually refers to the **Passenger Details or Login/Registration form**. A 4.7s gap suggests the user types data, hits \"Next/Save,\" gets a validation error, reads it, and tries again.\n*   *Common Culprit:* Strict form validation (e.g., rejecting a phone number because of a missing country code or spaces).\n\n**UX Implications:**\nThis has the highest number of affected unique users (3,956). It suggests a \"Validation Loop of Death.\" Users are trying to give you their information, but the app keeps rejecting it.\n\n**Fix Priority: CRITICAL**\nThis is the final hurdle before payment. High friction here results in abandoned carts at the very last step.\n\n**Recommended Solutions:**\n*   **Inline Validation:** Do not wait for the \"Submit\" button to show errors. specific fields (like Email or Phone) should show green checkmarks as soon as the format is correct.\n*   **Auto-formatting:** Don't force users to type phone numbers in a specific format (e.g., `+1-555...`). Allow them to type `5551234` and format it programmatically on the backend.\n*   **Guest Checkout:** If this friction is coming from forced login/registration, allow a guest checkout option.\n\n---\n\n### 4. `_location_town-search`\n* **Metrics:** 95.9% Repetition | 0.38s Gap | 563 Occurrences | 23 Users\n\n**Root Cause Hypothesis:**\nThe metrics match `_location_elastic-town-search` almost exactly. This is likely a legacy event tag, a specific edge-case search bar (perhaps in the \"Filter\" menu rather than the home screen), or a different version of the app.\n\n**UX Implications:**\nSame as the main search issue, but on a much smaller scale.\n\n**Fix Priority: LOW**\nOnly 23 users are affected. Fixing the main `elastic-town-search` will likely reveal the solution for this one, or this code path might be deprecated soon.\n\n**Recommended Solutions:**\n*   **Audit Code:** Check if this is duplicate code. Apply the same \"Debouncing\" fix from the main search tool here.\n\n---\n\n### 5. `apply_filter`\n* **Metrics:** 87% Repetition | 4.5s Gap | 154 Occurrences | 20 Users\n\n**Root Cause Hypothesis:**\nUsers apply a filter (e.g., \"AC Bus\" or \"Sleeper\"), wait 4 seconds, and re-apply or change it.\n*   *Scenario:* The user applies a filter, sees **\"No Buses Found,\"** and has to immediately clear or change the filter.\n*   *Scenario:* The \"Apply\" button is confusing, and users aren't sure if the filter actually took effect.\n\n**UX Implications:**\nThe filtering logic might be too exclusive, or the UI doesn't clearly indicate that the list has updated.\n\n**Fix Priority: LOW**\nVery low volume of users.\n\n**Recommended Solutions:**\n*   **Dynamic Counts:** Show the number of available results *inside* the filter button before the user clicks Apply (e.g., \"AC Sleeper (3 buses)\"). This prevents users from applying filters that result in zero options.\n*   **Auto-Apply:** Remove the \"Apply\" button entirely. Update results in real-time as checkboxes are ticked.\n\n---\n\n### Summary of Action Plan\n\n1.  **Immediate (Sprint 1):** Fix the **Search Debouncing** (`_location_elastic-town-search`). The app is spamming the user or server, creating friction for 97% of interactions.\n2.  **Immediate (Sprint 1):** Investigate **Passenger Form Validation** (`_user`). 3,956 users are struggling to save their details. Relax input rules.\n3.  **Next (Sprint 2):** Improve **Seat Selection** touch targets and visual feedback.\n4.  **Backlog:** Investigate filters and legacy search tags."
+  },
+  "intervention_rules": {
+    "total_rules": 15,
+    "intervention_triggers": [
+      {
+        "condition": "_auth_generate-otp",
+        "outcome": "dropout_likely",
+        "confidence": 0.999061473486626,
+        "support": 4258,
+        "lift": 1.3743399684531261,
+        "recommendation": "Intervene when user triggers: _auth_generate-otp"
+      },
+      {
+        "condition": "_auth_verify-otp AND _auth_generate-otp",
+        "outcome": "dropout_likely",
+        "confidence": 0.9990551181102362,
+        "support": 3172,
+        "lift": 1.3743312258001275,
+        "recommendation": "Intervene when user triggers: _auth_verify-otp AND _auth_generate-otp"
+      },
+      {
+        "condition": "_auth_verify-otp",
+        "outcome": "dropout_likely",
+        "confidence": 0.998318116290245,
+        "support": 4155,
+        "lift": 1.3733173832239527,
+        "recommendation": "Intervene when user triggers: _auth_verify-otp"
+      },
+      {
+        "condition": "Buslist_date change AND login",
+        "outcome": "dropout_likely",
+        "confidence": 0.9969731365872115,
+        "support": 2635,
+        "lift": 1.3714671874034832,
+        "recommendation": "Intervene when user triggers: Buslist_date change AND login"
+      },
+      {
+        "condition": "login AND _location_special-town-search",
+        "outcome": "dropout_likely",
+        "confidence": 0.9962380300957593,
+        "support": 2913,
+        "lift": 1.3704559521000674,
+        "recommendation": "Intervene when user triggers: login AND _location_special-town-search"
+      },
+      {
+        "condition": "login AND _location_from-town",
+        "outcome": "dropout_likely",
+        "confidence": 0.9960697617293048,
+        "support": 4055,
+        "lift": 1.3702244769130227,
+        "recommendation": "Intervene when user triggers: login AND _location_from-town"
+      },
+      {
+        "condition": "Buslist_date change AND _user_device",
+        "outcome": "dropout_likely",
+        "confidence": 0.9960488505747127,
+        "support": 2773,
+        "lift": 1.3701957108797953,
+        "recommendation": "Intervene when user triggers: Buslist_date change AND _user_device"
+      },
+      {
+        "condition": "_user_device AND _location_special-town-search",
+        "outcome": "dropout_likely",
+        "confidence": 0.9958172458172458,
+        "support": 3095,
+        "lift": 1.3698771081876508,
+        "recommendation": "Intervene when user triggers: _user_device AND _location_special-town-search"
+      },
+      {
+        "condition": "login AND _history_recommended-journey",
+        "outcome": "dropout_likely",
+        "confidence": 0.9957333333333334,
+        "support": 3734,
+        "lift": 1.3697616755705861,
+        "recommendation": "Intervene when user triggers: login AND _history_recommended-journey"
+      },
+      {
+        "condition": "login AND _user_device",
+        "outcome": "dropout_likely",
+        "confidence": 0.9957276368491321,
+        "support": 3729,
+        "lift": 1.3697538393101305,
+        "recommendation": "Intervene when user triggers: login AND _user_device"
+      },
+      {
+        "condition": "_location_elastic-town-search > 3x AND login",
+        "outcome": "dropout_likely",
+        "confidence": 0.995716034271726,
+        "support": 3254,
+        "lift": 1.3697378784445686,
+        "recommendation": "Intervene when user triggers: _location_elastic-town-search > 3x AND login"
+      },
+      {
+        "condition": "login AND _user > 3x",
+        "outcome": "dropout_likely",
+        "confidence": 0.9956116291826659,
+        "support": 3630,
+        "lift": 1.369594255563882,
+        "recommendation": "Intervene when user triggers: login AND _user > 3x"
+      },
+      {
+        "condition": "_user_device",
+        "outcome": "dropout_likely",
+        "confidence": 0.9952488122030508,
+        "support": 3980,
+        "lift": 1.369095153266825,
+        "recommendation": "Intervene when user triggers: _user_device"
+      },
+      {
+        "condition": "_user_device AND _history_recommended-journey",
+        "outcome": "dropout_likely",
+        "confidence": 0.9952452452452452,
+        "support": 3977,
+        "lift": 1.3690902464489683,
+        "recommendation": "Intervene when user triggers: _user_device AND _history_recommended-journey"
+      },
+      {
+        "condition": "_user_device AND _location_from-town",
+        "outcome": "dropout_likely",
+        "confidence": 0.9952428642964447,
+        "support": 3975,
+        "lift": 1.3690869711419063,
+        "recommendation": "Intervene when user triggers: _user_device AND _location_from-town"
+      }
+    ],
+    "algorithm": "Apriori",
+    "llm_insights": "Based on the high confidence scores (>99%) regarding authentication dropouts and the extreme friction scores in the search and seat selection flows, here is the engineering design for automated interventions.\n\n### 1. Real-Time Interventions (In-App)\n\nThese interventions trigger immediately via the client-side event bus when specific patterns are detected.\n\n**A. The \"OTP Rescue\" Modal**\n*   **Trigger:** User hits `_auth_generate-otp` but does not trigger `_auth_verify-otp` within 20 seconds, OR triggers `_auth_verify-otp` with an error response.\n*   **Data Justification:** High confidence (99.9%) and lift (1.37) for dropouts here.\n*   **Action:**\n    1.  **Stop the clock:** Pause any countdown timers.\n    2.  **Intervention UI:** Slide-up bottom sheet.\n    3.  **Content:** \"Having trouble with SMS? Get code via WhatsApp\" or \"Call me with the code.\"\n    4.  **Fallback:** If this is a registration flow, offer \"Continue as Guest\" (if architecture permits) to capture the booking first and handle auth later.\n\n**B. The \"Search Stabilizer\"**\n*   **Trigger:** `_location_elastic-town-search` event fires > 5 times in < 2 seconds (detecting the 0.4s gap / 97% repetition rate).\n*   **Data Justification:** 165k occurrences of friction. Users are likely fighting the auto-complete logic or typos.\n*   **Action:**\n    1.  **Debounce UI:** Temporarily disable the auto-refresh of the list for 1.5 seconds.\n    2.  **Smart Overlay:** Display \"Popular Cities\" pills/chips immediately below the input field to allow a single tap instead of typing.\n    3.  **Visual Cue:** Highlight the exact matching substring in the dropdown to show the user why their query is matching (or not matching) specific results.\n\n**C. The \"Seat Map\" Zoom Assistant**\n*   **Trigger:** `select_seat` event occurs 3 times on the same coordinate or disabled seat ID within 5 seconds.\n*   **Data Justification:** 94% repetition rate indicates users are tapping unselectable areas or missing the target.\n*   **Action:**\n    1.  **Auto-Zoom:** Automatically zoom in the viewport to 200% on the area the user is tapping.\n    2.  **Toast Message:** If the seat is booked, trigger a specific toast: \"Seat [Number] is already taken. Try the white seats.\"\n    3.  **Haptic Feedback:** Trigger a heavy vibration on invalid taps to provide non-visual feedback that the action failed.\n\n**D. Date Availability Suggestion**\n*   **Trigger:** `Buslist_date change` followed by > 3 seconds of inactivity (no `select_bus` event).\n*   **Data Justification:** Changing dates correlates with 99.6% dropout confidence.\n*   **Action:**\n    1.  **Tooltip:** If the bus list for the new date is empty or low inventory, show: \"No buses on [Date]? Tap here to see buses for [Date +/- 1 day].\"\n\n---\n\n### 2. Proactive Outreach (Post-Session)\n\nThese trigger via your CRM/Marketing Automation platform (e.g., Braze, CleverTap) based on session termination events.\n\n**A. The \"Auth-Drop\" WhatsApp Recovery**\n*   **Audience:** Users triggering `_auth_generate-otp` but ending session without `login_success`.\n*   **Channel:** WhatsApp Business API (since we likely captured the phone number to send the OTP).\n*   **Content:** \"Hi! We noticed you tried to log in but got stuck. Click this secure link to auto-verify and continue your booking to [Destination from previous search].\"\n*   **Timing:** Immediate (within 2 minutes of session end).\n\n**B. Price Drop Alert (Date Switchers)**\n*   **Audience:** Users who triggered `Buslist_date change` multiple times and dropped out.\n*   **Channel:** Push Notification.\n*   **Content:** \"Flexible with dates? Save 15% on buses to [Town] this Wednesday.\"\n*   **Strategy:** Turn the indecision (date switching) into a deal-seeking opportunity.\n\n**C. \"Saved Search\" Nudge**\n*   **Audience:** Users with `_location_special-town-search` events who didn't book.\n*   **Channel:** Email (if known) or Push.\n*   **Content:** Deep link directly to the Search Results page with the From/To/Date pre-filled. \"Complete your trip to [Town]. 3 seats left at this price.\"\n\n---\n\n### 3. Personalization Rules\n\nHow to adapt the app logic based on user state.\n\n**A. The \"Low-Friction\" Mode (Feature Toggle)**\n*   **Logic:** If a user\u2019s device ID is associated with a session containing > 10 `_location_elastic-town-search` events (high friction history):\n*   **Adaptation:** On their next launch, disable \"Elastic Search\" (live typing). Switch to a standard \"Type + Click Search\" interface or a \"Recent Searches\" dominant view.\n*   **Goal:** Remove the complexity for users who struggle with the dynamic interface.\n\n**B. Simplified Auth Flow (AB Test)**\n*   **Variant A (Control):** Current flow (Phone -> OTP -> Profile -> Home).\n*   **Variant B (Intervention):** Deferred Auth. Allow `Buslist_date change` and `select_seat` *before* asking for Login.\n*   **Target Segment:** Users triggering `_location_from-town` (Support: 4055). Move the login barrier to the \"Book\" button rather than the \"Search\" button.\n\n**C. Device-Specific UI Rendering**\n*   **Logic:** The rule `_user_device` appears frequently in dropout logic.\n*   **Adaptation:** If the user is on an older Android version or small screen (detected via User Agent), render the \"Lite\" version of the Seat Layout (CSS grid instead of Canvas/SVG) to reduce lag during `select_seat`.\n\n---\n\n### 4. Success Metrics\n\nWe will measure success by tracking the **reduction in confidence** of the dropout rules.\n\n| Metric | Definition | Target |\n| :--- | :--- | :--- |\n| **Auth Funnel Completion** | % of users moving from `_auth_generate-otp` to `login_success`. | Increase by 15% |\n| **Search Friction Score** | Average repetition rate of `_location_elastic-town-search`. | Decrease from 97.7% to < 50% |\n| **Seat Selection Time** | Average time between `select_seat` and `click_book`. | Decrease by 20% |\n| **Recovery Rate** | % of users who click the \"WhatsApp Recovery\" link and complete a booking. | > 5% |\n| **Global Conversion** | Overall Session-to-Transaction rate. | Increase by 2% (Absolute) |\n\n**Implementation Note:**\nTag all intervention events in analytics (e.g., `intervention_shown: otp_rescue`, `intervention_clicked: popular_cities`). If an intervention has a Click-Through Rate (CTR) < 1%, kill it\u2014it's just adding noise."
+  },
+  "llm_executive_summary": "**Executive Summary: Booking Funnel Optimization**\n\n*   **Overall Health:** **Critical friction exists despite high retention.** While users are highly engaged (~9.3 sessions per user), the core booking flow is broken. 94% of the total user base encounters severe repetition loops in the town search function, indicating a technical or UX failure in the primary utility of the app.\n*   **Top Priority (Search):** **Immediate engineering intervention required on `_location_elastic-town-search`.** This is the highest friction point, affecting 3,721 users (94% of cohort) with a 97.8% repetition rate. Users are likely unable to find destinations or the search API is failing/slow, leading to the 15.3% drop-off at Step 2.\n*   **Secondary Priority (Seat Selection):** **Redesign the `select_seat` interface.** 1,366 users (35%) struggle here with a 94.5% repetition rate. This interaction difficulty correlates directly with the critical 17.8% combined drop-off occurring at Steps 6 and 7 (end-of-funnel).\n*   **Business Impact:** **Potential conversion lift of 15-20%.** Currently, survival drops from 65% to 55% during the final booking stages (Steps 6-7). smoothing the Seat Selection friction alone could reclaim nearly half of those lost high-intent customers.\n*   **Resource Allocation:** Shift **Backend Engineering** immediately to debug and optimize the Elastic Search query performance. Allocate **UX/UI Design** resources to simplify the Seat Selection map interactions and hit area sizes.\n*   **Timeline:**\n    *   **Quick Win (<1 week):** Fix Search API latency/logic to reduce the Step 2 drop-off.\n    *   **Strategic Initiative (2-4 weeks):** A/B test a simplified Seat Selection UI to solve the Step 6/7 churn."
+}
