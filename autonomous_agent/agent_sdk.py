@@ -22,9 +22,9 @@ bedrock_extra_args = {
 }
 
 
-def run_revenue_analysis(csv_path: str, max_turns: int = 50, session_id: str = None):
+async def run_revenue_analysis_async(csv_path: str, max_turns: int = 50, session_id: str = None):
     """
-    Run autonomous revenue analysis using OpenAI Agents SDK with session memory.
+    Run autonomous revenue analysis using OpenAI Agents SDK with session memory (async).
 
     Args:
         csv_path: Path to the CSV file to analyze
@@ -124,7 +124,7 @@ def run_revenue_analysis(csv_path: str, max_turns: int = 50, session_id: str = N
         f.write("="*80 + "\n\n")
 
     # Run the agent with session memory
-    result = Runner.run_sync(
+    result = await Runner.run(
         starting_agent=revenue_agent,
         input=task,
         max_turns=max_turns,
@@ -147,6 +147,12 @@ def run_revenue_analysis(csv_path: str, max_turns: int = 50, session_id: str = N
                 print(f"   • {f}")
 
     return result
+
+
+def run_revenue_analysis(csv_path: str, max_turns: int = 50, session_id: str = None):
+    """Synchronous wrapper for run_revenue_analysis_async"""
+    import asyncio
+    return asyncio.run(run_revenue_analysis_async(csv_path, max_turns, session_id))
 
 
 if __name__ == "__main__":

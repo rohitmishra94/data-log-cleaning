@@ -12,7 +12,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from agent_sdk import run_revenue_analysis
+from agent_sdk import run_revenue_analysis_async
 from evaluator_agent import evaluate_analysis
 
 load_dotenv()
@@ -112,12 +112,12 @@ DO NOT repeat the same mistakes. Learn from the feedback.
             prompts.ANALYSIS_CONTEXT = enhanced_context
 
             try:
-                run_revenue_analysis(csv_path, max_turns=30, session_id=session_id)
+                await run_revenue_analysis_async(csv_path, max_turns=30, session_id=session_id)
             finally:
                 # Restore original context
                 prompts.ANALYSIS_CONTEXT = original_context
         else:
-            run_revenue_analysis(csv_path, max_turns=30, session_id=session_id)
+            await run_revenue_analysis_async(csv_path, max_turns=30, session_id=session_id)
 
         print(f"\n{'─'*80}")
         print(f"✅ Analysis Complete")
